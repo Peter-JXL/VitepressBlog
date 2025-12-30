@@ -325,10 +325,6 @@ export const teekConfig = defineTeekConfig({
     hash: false, // 是否包含哈希值
   },
 
-  vitePlugins: {
-    autoFrontmatter: true,  //开启 Frontmatter 自动生成功能
-  },
-
 // 评论配置，内置 Giscus、Twikoo、Waline、Artalk 四种评论插件
   comment: {
     provider: "twikoo", // 评论区提供者
