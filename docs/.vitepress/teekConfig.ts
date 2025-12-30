@@ -3,7 +3,9 @@ import { defineTeekConfig } from "vitepress-theme-teek/config";
 
 export const teekConfig = defineTeekConfig({
   teekTheme: true,             // 是否启用 teek 主题
-
+  loading: true, // 启用 Loading 动画，为 false 则关闭 Loading 动画
+  // loading: "正在加载中...", // 修改 Loading 文案
+  pageStyle: "segment-nav",          // "default" | "card" | "segment" | "card-nav" | "segment-nav"
   
   // 首页 Banner 配置，位于首页顶部
   banner: {
@@ -28,7 +30,39 @@ export const teekConfig = defineTeekConfig({
     switchTime: 5000, // 描述信息切换间隔时间，单位：毫秒。descStyle 为 switch 时生效
     switchShuffle: false, // 描述信息是否随机切换，为 false 时按顺序切换。descStyle 为 switch 时生效
   },
-  
+
+  // 页脚配置
+  footerInfo: {
+    // 页脚信息，支持 HTML 格式（位于主题版权上方）
+    // topMessage: ["下面的内容和图标都可以修改（本条内容也可以隐藏的）"],
+    // 页脚信息，支持 HTML 格式（位于主题版权下方）
+    bottomMessage: `<a href="https://www.foreverblog.cn/" class="d-inline-block text-muted" target="_blank" rel="external nofollow">
+    <img src="https://image.peterjxl.com/blog/foreverblog.webp" alt="点击查看十年之约" style="width:auto;height:11px;"> `,
+    // 主题版权配置
+    theme: {
+      show: true, // 是否显示主题版权，建议显示
+      name: "Theme By Teek", // 自定义名称
+      link: "https://vp.teek.top", // 自定义链接
+    },
+    // 博客版权配置
+    copyright: {
+      show: true, // 是否显示博客版权
+      createYear: 2022, // 创建年份
+      suffix: "晓林的博客", // 后缀
+    },
+    // ICP 备案信息配置
+    icpRecord: {
+      name: "粤 ICP 备 2022067627 号 -1",
+      link: "https://beian.miit.gov.cn",
+    },
+    // 网络安全备案信息配置
+    securityRecord: {
+      name: "粤公网安备 44011302003646 号",
+      link: "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44011302003646",
+    },
+  },
+
+
   // 首页卡片栏配置
   homeCardListPosition: "right", // 首页卡片栏列表位置，当为 left 则在文章列表左侧，当为 right 则在文章列表右侧
   tag: {  enabled: false  },  // 标签卡片配置
@@ -81,10 +115,64 @@ export const teekConfig = defineTeekConfig({
     enabled: true, // 是否启用友情链接卡片
     list: [
       {
+        name: "Evan's blog",
+        desc: " Web 前端技术博客，积跬步以至千里",
+        avatar: "https://image.peterjxl.com/blog/xugaoyi.jpg",
+        link: "https://xugaoyi.com",
+      },
+      {
         name: "Teeker",
         desc: "朝圣的使徒，正在走向编程的至高殿堂！",
         avatar: "https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/user/avatar2.png",
         link: "http://notes.teek.top/",
+      },
+      {
+        name: "One Blog",
+        desc: "明心静性，爱自己",
+        avatar: "https://img.xxdevops.cn/blog/avatar/yuwen_avatar.avif",
+        link: "https://onedayxyy.cn/",
+      },
+      {
+        name: "二丫讲梵 ",
+        desc: "💻学习📝记录🔗分享 ",
+        avatar: "https://wiki.eryajf.net/img/logo.png",
+        link: "https://wiki.eryajf.net",
+      },
+      {
+        name: "iMaeGoo’s Blog",
+        desc: "虹墨空间站",
+        avatar: "https://cravatar.cn/avatar/05bb2aa29c9da6ef65fabd321135e7b6?s=200",
+        link: "https://www.imaegoo.com",
+      },
+      {
+        name: "陶小桃 Blog",
+        desc: "热衷于分享技术的机械专业小哥哥~",
+        avatar: "https://image.peterjxl.com/blog/pSuDn6H.png",
+        link: "https://www.52txr.cn",
+      },
+      {
+        name: "怠惰のコエ - imba久期 BLOG",
+        desc: "あなた、怠惰ですねー",
+        avatar: "https://imba97.cn/uploads/2019/08/imba97-1024-300x300.png",
+        link: "https://imba97.cn",
+      },
+      {
+        name: "维基萌",
+        desc: "萌即是正义！时不时分享一些 ACG 活动记录与有趣代码的小站！",
+        avatar: "https://www.wikimoe.com/upload/siteImg/siteFavicon.png",
+        link: "https://www.wikimoe.com",
+      },
+      {
+        name: "张洪 Heo",
+        desc: "分享设计与科技生活",
+        avatar: "https://bu.dusays.com/2022/12/28/63ac2812183aa.png",
+        link: "https://blog.zhheo.com",
+      },
+      {
+        name: "葱苓 sama",
+        desc: "Don't worry, Be happy.",
+        avatar: "https://cdn.jsdelivr.net/gh/ciraos/ciraos-static@main/img/avatar1.avif",
+        link: "https://blog.ciraos.top",
       },
     ], // 友情链接数据列表
     title: "${icon}友情链接", // 卡片标题
@@ -218,4 +306,36 @@ export const teekConfig = defineTeekConfig({
     
   ],
 
+  // 赞赏功能配置
+  appreciation: {
+    position: "aside-bottom", // 赞赏位置  doc-after：评论区上方；doc-after-popper：以弹框形式出现 aside-bottom：大纲栏下方
+    // 赞赏配置
+    options: {
+      title: `<span style="color: var(--tk-theme-color)">欢迎打赏支持</span>`, // 赞赏标题，支持 HTML
+      content: `<img src='https://image.peterjxl.com/blog/reward-vertical.png'>`, // 赞赏内容，支持 HTML
+    },
+  },
+
+  // 文章分享配置
+  articleShare: {
+    enabled: true, // 是否开启文章链接分享功能
+    text: "分享此页面", // 分享按钮文本
+    copiedText: "链接已复制", // 复制成功文本
+    query: false, // 是否包含查询参数
+    hash: false, // 是否包含哈希值
+  },
+
+  vitePlugins: {
+    autoFrontmatter: true,  //开启 Frontmatter 自动生成功能
+  },
+
+// 评论配置，内置 Giscus、Twikoo、Waline、Artalk 四种评论插件
+  comment: {
+    provider: "twikoo", // 评论区提供者
+    // 评论区配置项，根据 provider 不同而不同，具体看对应官网的使用介绍
+    options: {
+      // twikoo 配置，官网：https://twikoo.js.org/
+      envId: "https://twikoo.peterjxl.com/"
+    },
+  },
 });
