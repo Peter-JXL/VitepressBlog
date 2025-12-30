@@ -1,3 +1,4 @@
+// 主配置文件
 import { defineConfig } from 'vitepress'
 import { teekConfig } from "./teekConfig";
 
@@ -179,7 +180,7 @@ export default defineConfig({
           { 
             text: '电影', items: [
               // { text: '电影软件', link: '/movie-software/' },  
-              { text: '电影推荐', link: '/Movie-recommend/' },  
+              { text: '电影推荐', link: '/Movie-Recommend/' },  
             ] 
           },
           { 
@@ -209,12 +210,13 @@ export default defineConfig({
         items: [
           { text: '关于本站', link: '/About/Web/' },
           { text: '关于博主', link: '/About/me/' },
-          { text: '打赏', link: '/About/reward/' },
+          { text: '欢迎打赏', link: '/About/reward/' },
           { text: '网站动态', link: '/About/WebLog/' },
+          { text: '文章归档', link: '/archives/' },
           { text: '友人帐', link: '/About/friend-link/' },
           { text: '从零开始搭建博客', link: '/Blog/' },
           { text: '搭建邮件服务器', link: '/About/BuildMail/' },
-          { text: '本站分享', link: '/About/share/' },      
+          { text: '本站分享', link: '/About/share/' },
           {
             text: '🌈 生活',
             items: [
@@ -223,30 +225,9 @@ export default defineConfig({
               { text: '2024', link: '/2024/' },
               { text: '2025', link: '/2025/' },
             ]
-          },
-          {
-            text: '📇 文章索引', items: [
-              { text: '文章分类', link: '/categories/' },
-              // { text: '文章标签', link: '/tags/' }, // 大部分文章都没做标签，因此忽略
-              { text: '文章归档', link: '/archives/' }
-            ]
-          }        
+          },    
         ]
       }
     ],
-  
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
   }
 })
