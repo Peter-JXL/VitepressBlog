@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "parallax-js": "^3.1.0",
     "vitepress": "^1.6.4",
     "vitepress-theme-teek": "^1.5.4"
   },

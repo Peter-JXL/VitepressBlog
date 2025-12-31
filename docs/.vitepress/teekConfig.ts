@@ -1,12 +1,15 @@
 // 主题配置文件，会被 ./config.mts 引用
 import { defineTeekConfig } from "vitepress-theme-teek/config";
+import { SocialLinks } from "./config/SocialLinks"; //导入社交链接配置
+
 
 export const teekConfig = defineTeekConfig({
   teekTheme: true,             // 是否启用 teek 主题
   loading: true, // 启用 Loading 动画，为 false 则关闭 Loading 动画
   // loading: "正在加载中...", // 修改 Loading 文案
   pageStyle: "segment-nav",          // "default" | "card" | "segment" | "card-nav" | "segment-nav"
-  
+ 
+
   // 首页 Banner 配置，位于首页顶部
   banner: {
     enabled: true, // 是否启用 Banner
@@ -85,6 +88,7 @@ export const teekConfig = defineTeekConfig({
       title: "困", // 鼠标悬停图标的提示语
     },
   },
+  social: SocialLinks,   // 社交图标，显示于博主信息栏和页脚栏。参考 https://vp.teek.top/guide/icon-use.html#社交图标-iconfont
 
   // 精选文章卡片配置
   topArticle: {
@@ -242,69 +246,6 @@ export const teekConfig = defineTeekConfig({
   },
 
 
-  // 社交图标，显示于博主信息栏和页脚栏。参考 https://vp.teek.top/guide/icon-use.html#社交图标-iconfont
-  social: [
-      {
-        icon: "icon-youjian",
-        name: "邮件",
-        link: "mailto:peterjxl@qq.com",
-      },
-      {
-        icon: "icon-github",
-        name: "GitHub",
-        link: "https://github.com/Peter-JXL",
-      },
-      // {
-      //   icon: "icon-gitee",
-      //   name: "Gitee",
-      //   link: "https://gitee.com/peterjxl",
-      // },
-      {
-        icon: "icon-csdn",
-        name: "CSDN",
-        link: "https://peterjxl.blog.csdn.net/",
-      },
-
-      {
-        icon: "icon-bokeyuan",
-        name: "博客园",
-        link: "https://www.cnblogs.com/PeterJXL/",
-      },
-
-      {
-        icon: "icon-zhihu",
-        name: "知乎",
-        link: "https://www.zhihu.com/people/PeterJXL",
-      },
-
-      {
-        icon: "icon-rss",
-        name: "RSS",
-        link: "https://www.peterjxl.com/rss.xml",
-      },
-      // {
-      //   icon: "icon-juejin",
-      //   name: "掘金",
-      //   link: "https://juejin.cn/user/465848663017144",
-      // },
-      // {
-      //   icon: "icon-jianshu",
-      //   name: "简书",
-      //   link: "https://www.jianshu.com/u/9bca3159ae44",
-      // },
-      // {
-      //   icon: "icon-sf",
-      //   name: "思否",
-      //   link: "https://segmentfault.com/u/peterjxl",
-      // },
-
-      // {
-      //   icon: "icon-bilibili",
-      //   name: "Bilibili",
-      //   link: "https://space.bilibili.com/53069777",
-      // },
-    
-  ],
 
   // 赞赏功能配置
   appreciation: {

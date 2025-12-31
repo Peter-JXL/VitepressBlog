@@ -7,8 +7,28 @@ export default defineConfig({
   title: "晓林的博客",
   description: "个人博客, 编程基础, Java, 效率软件, 读书, 英语, 健身, 生活",
   extends: teekConfig,
+  cleanUrls: true,
+  lang: "zh-CN",
+  lastUpdated: true,
 
+  markdown: {
+    
+    lineNumbers: true,  // 开启行号
+    image: {
+      lazyLoading: true,  // 默认禁用；设置为 true 可为所有图片启用懒加载。
+    },
+    // 更改容器默认值标题
+    container: {
+      tipLabel: "提示",
+      warningLabel: "警告",
+      dangerLabel: "危险",
+      infoLabel: "信息",
+      detailsLabel: "详细信息",
+    },
+  },
+  
   themeConfig: {
+
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
@@ -230,6 +250,18 @@ export default defineConfig({
       }
     ],
 
-    
+    // 文章大纲配置
+    outline: {
+      level: [2, 4],  // 显示 2~4 级标题
+      label: "本页导航",  // 文章大纲上方的标签
+    },
+
+    lastUpdatedText: "上次更新时间",
+
+    // 前后文章跳转按钮的文字
+    docFooter: {
+      prev: "上一页",  
+      next: "下一页",
+    },
   }
 })
