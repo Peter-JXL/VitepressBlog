@@ -5,8 +5,7 @@ import { SocialLinks } from "./config/SocialLinks"; //导入社交链接配置
 
 export const teekConfig = defineTeekConfig({
   teekTheme: true,             // 是否启用 teek 主题
-  loading: true, // 启用 Loading 动画，为 false 则关闭 Loading 动画
-  // loading: "正在加载中...", // 修改 Loading 文案
+  loading: "博客正在加载中...", // 启用 Loading 动画，为 false 则关闭 Loading 动画，可直接配置 Loading 文案 
   pageStyle: "segment-nav",          // "default" | "card" | "segment" | "card-nav" | "segment-nav"
  
 
@@ -77,7 +76,7 @@ export const teekConfig = defineTeekConfig({
     slogan: "程序猿，自由职业者，博主，英语爱好者，健身达人", // 博主签名
     avatar: "https://image.peterjxl.com/blog/re0.jpg", // 博主头像
     shape: "circle", // 头像风格：square 为方形头像，circle 为圆形头像，circle-rotate 可支持鼠标悬停旋转，circle-rotate-last 将会持续旋转 59s
-    circleBgImg: "/blog/bg4.webp", // 背景图片
+    circleBgImg: "https://image.peterjxl.com/blog/sky-time-lapse.jpg", // 背景图片
     circleBgMask: true, // 遮罩层是否显示，仅当 shape 为 circle 且 circleBgImg 配置时有效
     circleSize: 100, // 头像大小
     color: "#ffffff", // 字体颜色
@@ -93,23 +92,137 @@ export const teekConfig = defineTeekConfig({
   // 精选文章卡片配置
   topArticle: {
     enabled: true, // 是否启用精选文章卡片
-    title: "${icon}精选文章", // 卡片标题
-    emptyLabel: "暂无精选文章", // 精选文章为空时的标签
     limit: 5, // 一页显示的数量
     autoPage: false, // 是否自动翻页
-    pageSpeed: 4000, // 翻页间隔时间，单位：毫秒。autoPage 为 true 时生效
     dateFormat: "yyyy-MM-dd hh:mm:ss", // 精选文章的日期格式
   },
 
   // 背景图片配置，将整个网站的背景色改为图片。
   bodyBgImg: {
     imgSrc: [
-      "./img/backgruond-city.jpg", 
-      "./img/re-background.jpg"
+    // 原神
+    'https://image.peterjxl.com/blog/134.jpg',  // 胡桃
+    'https://image.peterjxl.com/blog/125077204_p0.jpg', // 胡桃
+    'https://image.peterjxl.com/blog/122658264_p0.jpg', // 胡桃&芙芙 
+    'https://image.peterjxl.com/blog/138439477_p0.jpg', // 芙芙 
+    'https://image.peterjxl.com/blog/102890180_p1.png', // 芙芙
+    'https://image.peterjxl.com/blog/136656625_p0.jpg', // 芙芙
+    'https://image.peterjxl.com/blog/138613692_p0.jpg', // 哥伦比娅
+    'https://image.peterjxl.com/blog/138422625_p0.jpg', // 奈芙尔 原神 雅珂达 
+    'https://image.peterjxl.com/blog/104486407_p0.jpg', // 雷电将军
+    'https://image.peterjxl.com/blog/131754182_p0.jpg', // 丝柯克
+
+     // 崩坏 3
+    'https://image.peterjxl.com/blog/Elysia.jpg', // 爱莉
+    'https://image.peterjxl.com/blog/100649660_p1.png', // 爱莉
+    'https://image.peterjxl.com/blog/124205470_p0.jpg', // 爱莉
+    'https://image.peterjxl.com/blog/101693777_p0.jpg', // 爱莉
+    'https://image.peterjxl.com/blog/134156383_p0.jpg', // 爱莉
+    'https://image.peterjxl.com/blog/137445639_p0.jpg', // 爱丽希雅 崩铁
+    'https://image.peterjxl.com/blog/2024-6-2-9.png', // 松雀
+    'https://image.peterjxl.com/blog/2024-11-10-12.png', // 松雀
+    'https://image.peterjxl.com/blog/Av1352530965.jpg', // 瑟莉姆
+    'https://image.peterjxl.com/blog/2024-4-8-2.png', // 松雀和瑟莉姆
+    'https://image.peterjxl.com/blog/2024-10-12.png', // 薇塔
+    'https://image.peterjxl.com/blog/2024-09-26-3.png', // 薇塔和花火
+    'https://image.peterjxl.com/blog/2024-11-10-4.png', // 薇塔和花火
+    'https://image.peterjxl.com/blog/2024-11-10-6.png', // 薇塔和花火
+    'https://image.peterjxl.com/blog/2024-10-12-4.png', // 格蕾修
+
+     // 绝区零
+    'https://image.peterjxl.com/blog/%E6%8E%A8%E7%89%B9%20@rina_0A%202024-7-6.jfif', // 妮可躺在推车上
+    'https://image.peterjxl.com/blog/122710477_p0.jpg',  // 妮可+鲨鱼妹
+    'https://image.peterjxl.com/blog/121269323_p0.jpg',  // 鲨鱼妹
+    'https://image.peterjxl.com/blog/123353563_p0.png',  // 柏妮思
+    
+     // 鸣潮
+    'https://image.peterjxl.com/blog/2025-6-12.jpg',    // 卡提希娅 飘然远去的长梦-画师：撸卜
+    'https://image.peterjxl.com/blog/131473201_p0.jpg', // 卡提希娅
+    'https://image.peterjxl.com/blog/2025-08-29.jpg',  // 今汐
+    'https://image.peterjxl.com/blog/121206620_p1.png', // 长离
+    'https://image.peterjxl.com/blog/120767239_p0.png', // 长离
+    'https://image.peterjxl.com/blog/119879001_p0.png', // 吟霖
+    'https://image.peterjxl.com/blog/125117828_p0.jpg', // 吟霖
+    'https://image.peterjxl.com/blog/125670168_p0.jpg', // 吟霖
+    'https://image.peterjxl.com/blog/2025-04-07.jpg',   // 坎特蕾拉
+    'https://image.peterjxl.com/blog/134417892_p0.jpg', // 奥古斯塔
+    'https://image.peterjxl.com/blog/134440043_p0.jpg', // 奥古斯塔
+    'https://image.peterjxl.com/blog/134452846_p0.jpg', // 奥古斯塔
+    'https://image.peterjxl.com/blog/2025-09-02.jpg',    // 奥古斯塔
+    'https://image.peterjxl.com/blog/137499724_p0.jpg', // 赞妮
+    
+    // 星穹铁道    
+    'https://image.peterjxl.com/blog/2025-05-04.jpg',  // 遐蝶
+    'https://image.peterjxl.com/blog/2025-02-07.jpg', // 遐蝶
+    'https://image.peterjxl.com/blog/128181590_p0.jpg', // 遐蝶
+    'https://image.peterjxl.com/blog/130724632_p2.jpg', // 风堇
+    'https://image.peterjxl.com/blog/121642710_p1.png', // 云璃
+    'https://image.peterjxl.com/blog/2025-12-31.jpg',   // 流萤
+    'https://image.peterjxl.com/blog/119791514_p0.jpg', // 流萤
+    'https://image.peterjxl.com/blog/116629910_p0.jpg', // 流萤
+    'https://image.peterjxl.com/blog/2025-09-05.jpg',  // 海瑟音
+    'https://image.peterjxl.com/blog/121154474_p11.jpg',// Kafka
+    'https://image.peterjxl.com/blog/111072628_p0.png', // Kafka
+    'https://image.peterjxl.com/blog/109349799_p0.png', // Kafka
+    'https://image.peterjxl.com/blog/116526272_p0.jpg', // 花火
+    'https://image.peterjxl.com/blog/117681717_p0.jpg', // 黄泉
+    'https://image.peterjxl.com/blog/117466601_p0.png', // 黄泉、花火
+    'https://image.peterjxl.com/blog/124529422_p0.png', // 三月七，星
+    'https://image.peterjxl.com/blog/2025-10-17.jpg', // 三月七
+    'https://image.peterjxl.com/blog/2025-09-30.jpg', // 长夜月
+    'https://image.peterjxl.com/blog/2024-12-26-4.jpg', // 知更鸟
+    'https://image.peterjxl.com/blog/125643183_p0.png', // 停云
+    'https://image.peterjxl.com/blog/126508781_p0.jpg', // 大黑塔
+    'https://image.peterjxl.com/blog/2025-02-07-6.jpg', // 大黑塔
+    'https://image.peterjxl.com/blog/126424846_p0.jpg', // 大黑塔
+    'https://image.peterjxl.com/blog/129916649_p0.jpg', // 缇宝
+    'https://image.peterjxl.com/blog/131998699_p0.jpg', // 缇宝
+
+    // 日常
+    'https://image.peterjxl.com/backgruond-city.jpg',
+    
+    // re: zero
+    'https://image.peterjxl.com/blog/re-background.jpg',
+    'https://image.peterjxl.com/blog/Emilia.jpg',
+    'https://image.peterjxl.com/blog/Emilia-2.jpg',
+    
+    // Miku
+    'https://image.peterjxl.com/blog/120586024_p0.png',
+    'https://image.peterjxl.com/blog/114179851_p0.png',
+    'https://image.peterjxl.com/blog/120814179_p0.jpg',
+    
+    // 孤独摇滚
+    'https://image.peterjxl.com/blog/112280380_p0.png',
+    'https://image.peterjxl.com/blog/103907445_p0.png',
+    'https://image.peterjxl.com/blog/109565821_p0.png',
+
+    // 二次元
+    'https://image.peterjxl.com/blog/180.jpg',  // 下拉裙摆
+    'https://image.peterjxl.com/blog/4.2b.png', // 尼尔·机械纪元
+    'https://image.peterjxl.com/blog/116406855_p0.png', // 莉可莉丝
+    'https://image.peterjxl.com/blog/2020-04-03_16-23-36.png', // 鬼灭之刃
+    'https://image.peterjxl.com/blog/114613535_p0.png', // 葬送的芙莉莲
+    'https://image.peterjxl.com/blog/76601747_p1.jpg', // 国家队
+    'https://image.peterjxl.com/blog/62494753_p0.jpg', // 埃罗芒
+    'https://image.peterjxl.com/blog/Mikasa.jpg',  // 三笠
+    'https://image.peterjxl.com/blog/saber.jpg',  // fate
+    'https://image.peterjxl.com/blog/123800363_p0.jpg', // 夏日重现
+    'https://image.peterjxl.com/blog/gojo-eyes-jujutsu-kaisen-hd-wallpaper-uhdpaper.com-208@2@a.jpg', // 五条悟
+    'https://image.peterjxl.com/blog/135718569_p0.jpg', // 蕾塞
+    
+    // 冰菓
+    'https://image.peterjxl.com/blog/690112.jpg',
+    'https://image.peterjxl.com/blog/bingguo.jpg',
+
+    'https://image.peterjxl.com/blog/walk-in-space.png', // 太空
+    'https://image.peterjxl.com/blog/182.jpg', // 洛基
+    'https://image.peterjxl.com/blog/miaomiao.jpg', // 妙妙！
+    'https://image.peterjxl.com/blog/2025-08-28.jpg', // 烤鱼生日
+    'https://image.peterjxl.com/blog/MEME-Kaofish.jpg', // 烤鱼
     ], 
     imgOpacity: 1, // 背景图透明度，选值 0.1 ~ 1.0
     imgInterval: 15000, //  当有多张背景图时（imgSrc 为数组），设置切换时间，单位：毫秒
-    imgShuffle: false, // 是否随机切换
+    imgShuffle: true, // 是否随机切换
     mask: false, // 背景图遮罩
     maskBg: "rgba(0, 0, 0, 0.2)", // 背景图遮罩颜色，如果为数字，则是 rgba(0, 0, 0, ${maskBg})，如果为字符串，则作为背景色。mask 为 true 时生效
   },
@@ -117,18 +230,20 @@ export const teekConfig = defineTeekConfig({
   // 友情链接卡片配置
   friendLink: {
     enabled: true, // 是否启用友情链接卡片
+    limit: 5, // 一页显示的数量
+    autoScroll: false, // 是否自动滚动
     list: [
-      {
-        name: "Evan's blog",
-        desc: " Web 前端技术博客，积跬步以至千里",
-        avatar: "https://image.peterjxl.com/blog/xugaoyi.jpg",
-        link: "https://xugaoyi.com",
-      },
       {
         name: "Teeker",
         desc: "朝圣的使徒，正在走向编程的至高殿堂！",
         avatar: "https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/user/avatar2.png",
         link: "http://notes.teek.top/",
+      },
+      {
+        name: "Evan's blog",
+        desc: " Web 前端技术博客，积跬步以至千里",
+        avatar: "https://image.peterjxl.com/blog/xugaoyi.jpg",
+        link: "https://xugaoyi.com",
       },
       {
         name: "One Blog",
@@ -149,12 +264,6 @@ export const teekConfig = defineTeekConfig({
         link: "https://www.imaegoo.com",
       },
       {
-        name: "陶小桃 Blog",
-        desc: "热衷于分享技术的机械专业小哥哥~",
-        avatar: "https://image.peterjxl.com/blog/pSuDn6H.png",
-        link: "https://www.52txr.cn",
-      },
-      {
         name: "怠惰のコエ - imba久期 BLOG",
         desc: "あなた、怠惰ですねー",
         avatar: "https://imba97.cn/uploads/2019/08/imba97-1024-300x300.png",
@@ -165,6 +274,12 @@ export const teekConfig = defineTeekConfig({
         desc: "萌即是正义！时不时分享一些 ACG 活动记录与有趣代码的小站！",
         avatar: "https://www.wikimoe.com/upload/siteImg/siteFavicon.png",
         link: "https://www.wikimoe.com",
+      },
+      {
+        name: "陶小桃 Blog",
+        desc: "热衷于分享技术的机械专业小哥哥~",
+        avatar: "https://image.peterjxl.com/blog/pSuDn6H.png",
+        link: "https://www.52txr.cn",
       },
       {
         name: "张洪 Heo",
@@ -178,14 +293,7 @@ export const teekConfig = defineTeekConfig({
         avatar: "https://cdn.jsdelivr.net/gh/ciraos/ciraos-static@main/img/avatar1.avif",
         link: "https://blog.ciraos.top",
       },
-    ], // 友情链接数据列表
-    title: "${icon}友情链接", // 卡片标题
-    emptyLabel: "暂无友情链接", // 友情链接为空时的标签
-    limit: 5, // 一页显示的数量
-    autoScroll: false, // 是否自动滚动
-    scrollSpeed: 2500, // 滚动间隔时间，单位：毫秒。autoScroll 为 true 时生效
-    autoPage: false, // 是否自动翻页
-    pageSpeed: 4000, // 翻页间隔时间，单位：毫秒。autoPage 为 true 时生效
+    ],
   },
 
 
@@ -211,11 +319,17 @@ export const teekConfig = defineTeekConfig({
     langTextTransform: "uppercase", // 语言文本显示样式，为 text-transform 的值:none, capitalize, lowercase, uppercase
     copiedDone: TkMessage => TkMessage.success("复制成功！"), // 复制代码完成后的回调
   },
+  
+  vitePlugins: {
+    sidebarOption: {
+      initItems: false,
+      collapsed: true,
+    },
+  },
 
-  // 是否启用侧边栏展开/折叠触发器
-  sidebarTrigger: true,
+  // 文章默认的作者信息
   author: {
-    name: "晓林", // 作者名称
+    name: "晓林", 
   },
 
   // 站点信息卡片配置
@@ -247,14 +361,17 @@ export const teekConfig = defineTeekConfig({
 
 
 
-  // 赞赏功能配置
+  // 赞赏功能配置 https://vp.teek.top/reference/article-config.html#appreciation
   appreciation: {
-    position: "aside-bottom", // 赞赏位置  doc-after：评论区上方；doc-after-popper：以弹框形式出现 aside-bottom：大纲栏下方
+    position: "doc-after", // 赞赏位置 doc-after 评论区上方；doc-after-popper 以弹框形式出现；aside-bottom 大纲栏下方
     // 赞赏配置
     options: {
-      title: `<span style="color: var(--tk-theme-color)">欢迎打赏支持</span>`, // 赞赏标题，支持 HTML
-      content: `<img src='https://image.peterjxl.com/blog/reward-vertical.png'>`, // 赞赏内容，支持 HTML
-    },
+      icon: "weChatPay", // 赞赏图标，内置 weChatPay 和 alipay
+      expandTitle: "打赏支持", // 展开标题，支持 HTML
+      collapseTitle: "下次一定", // 折叠标题，支持 HTML
+      content: `<img src='https://image.peterjxl.com/blog/reward.png'>`, // 赞赏内容，支持 HTML
+      expand: false, // 是否默认展开，默认 false
+    }
   },
 
   // 文章分享配置

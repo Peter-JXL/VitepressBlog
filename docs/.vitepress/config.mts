@@ -1,18 +1,36 @@
 // 主配置文件
 import { defineConfig } from 'vitepress'
 import { teekConfig } from "./teekConfig";
+import { RSSOptions, RssPlugin } from "vitepress-plugin-rss";
+import { HeadData } from "./config/Head"; 
+import type { HeadConfig } from "vitepress"; // 在文件顶部添加类型导入
+
+const baseUrl = "https://www.peterjxl.com";
+const RSS: RSSOptions = {
+  title: "晓林的博客",
+  baseUrl,
+  copyright: "Copyright 2022-present 晓林",
+  filename: 'rss.xml'
+};
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+ 
   title: "晓林的博客",
   description: "个人博客, 编程基础, Java, 效率软件, 读书, 英语, 健身, 生活",
+  head: HeadData as HeadConfig[],
   extends: teekConfig,
   cleanUrls: true,
   lang: "zh-CN",
   lastUpdated: true,
 
+  // https://vitepress.dev/zh/guide/sitemap-generation
+  sitemap: {
+    hostname: 'https://www.peterjxl.com'
+  },
+
   markdown: {
-    
+    math: true,
     lineNumbers: true,  // 开启行号
     image: {
       lazyLoading: true,  // 默认禁用；设置为 true 可为所有图片启用懒加载。
@@ -25,6 +43,12 @@ export default defineConfig({
       infoLabel: "信息",
       detailsLabel: "详细信息",
     },
+  },
+
+  vite: {
+    // ↓↓↓↓↓
+    // plugins: [RssPlugin(RSS)], //开启 RSS 功能
+    // ↑↑↑↑↑
   },
   
   themeConfig: {
@@ -253,7 +277,7 @@ export default defineConfig({
     // 文章大纲配置
     outline: {
       level: [2, 4],  // 显示 2~4 级标题
-      label: "本页导航",  // 文章大纲上方的标签
+      label: "本文导航",  // 文章大纲上方的标签
     },
 
     lastUpdatedText: "上次更新时间",
