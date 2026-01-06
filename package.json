@@ -12,6 +12,7 @@
     "sass": "^1.97.1",
     "scp2": "^0.5.0",
     "vitepress": "^1.6.4",
+    "vitepress-plugin-legend": "^1.2.1",
     "vitepress-plugin-rss": "^0.4.2",
     "vitepress-theme-teek": "^1.5.4"
   },
