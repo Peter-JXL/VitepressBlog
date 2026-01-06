@@ -1,9 +1,10 @@
 // 主配置文件
 import { defineConfig } from 'vitepress'
 import { teekConfig } from "./teekConfig";
-import { RSSOptions, RssPlugin } from "vitepress-plugin-rss";
 import { HeadData } from "./config/Head"; 
 import type { HeadConfig } from "vitepress"; // 在文件顶部添加类型导入
+import { RSSOptions, RssPlugin } from "vitepress-plugin-rss";
+import { vitepressPluginLegend } from "vitepress-plugin-legend";
 
 const baseUrl = "https://www.peterjxl.com";
 const RSS: RSSOptions = {
@@ -42,6 +43,9 @@ export default defineConfig({
       dangerLabel: "危险",
       infoLabel: "信息",
       detailsLabel: "详细信息",
+    },
+    config(md) {
+      vitepressPluginLegend(md); 
     },
   },
 
