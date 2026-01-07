@@ -141,13 +141,13 @@ export default defineConfig({
         text: '🛠️软件',
         items: [
           { text: 'Windows 使用技巧', link: '/Windows/' },
-          { text: '手机相关技巧', link: '/Phone/' },
-          { text: '最全面的输入法教程', link: '/TypeWriting/' },
           { text: '最全面的浏览器教程', link: '/Browser/' },
+          { text: '最全面的输入法教程', link: '/TypeWriting/' },
+          { text: '最全面的 RSS 教程', link: '/RSS/' },
+          { text: '手机相关技巧', link: '/Phone/' },
           { text: 'Office', link: '/Office/' },
           { text: '图片类工具', link: '/Picture/' },
-          { text: '效率类工具', link: '/Productive-Tool/' },
-          { text: '最全面的 RSS 教程', link: '/RSS/' },
+          { text: '效率类工具', link: '/Productive-Tool/' },          
           { text: '码字工具', link: '/Word-Processing-Tool/' },
           { text: '各大平台', link: '/Internet-Giant/' },
         ]

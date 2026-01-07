@@ -222,9 +222,8 @@ export const teekConfig = defineTeekConfig({
     ], 
     imgOpacity: 1, // 背景图透明度，选值 0.1 ~ 1.0
     imgInterval: 15000, //  当有多张背景图时（imgSrc 为数组），设置切换时间，单位：毫秒
-    imgShuffle: true, // 是否随机切换
-    mask: false, // 背景图遮罩
-    maskBg: "rgba(0, 0, 0, 0.2)", // 背景图遮罩颜色，如果为数字，则是 rgba(0, 0, 0, ${maskBg})，如果为字符串，则作为背景色。mask 为 true 时生效
+    imgShuffle: false, // 是否随机切换
+    mask: false // 背景图遮罩
   },
 
   // 友情链接卡片配置
