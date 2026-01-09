@@ -7,7 +7,6 @@ export const teekConfig = defineTeekConfig({
   teekTheme: true,             // 是否启用 teek 主题
   loading: "博客正在加载中...", // 启用 Loading 动画，为 false 则关闭 Loading 动画，可直接配置 Loading 文案 
   pageStyle: "segment-nav",          // "default" | "card" | "segment" | "card-nav" | "segment-nav"
- 
 
   // 首页 Banner 配置，位于首页顶部
   banner: {
@@ -100,6 +99,9 @@ export const teekConfig = defineTeekConfig({
   // 背景图片配置，将整个网站的背景色改为图片。
   bodyBgImg: {
     imgSrc: [
+    'https://image.peterjxl.com/blog/2025-12-25-2.jpg',   // 琳奈
+    'https://image.peterjxl.com/blog/2025-12-25-1.jpg',   // 琳奈
+
     // 原神
     'https://image.peterjxl.com/blog/134.jpg',  // 胡桃
     'https://image.peterjxl.com/blog/125077204_p0.jpg', // 胡桃

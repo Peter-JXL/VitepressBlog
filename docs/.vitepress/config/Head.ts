@@ -3,10 +3,14 @@ export const HeadData = [
 
   // 图标
   ['link', { rel: 'icon', href: 'https://image.peterjxl.com/blog/re0.jpg' }],
-  
+
+  // Algolia 站点验证
+  ["meta", { name: "algolia-site-verification", content: "58960DE7BCAEC562" }],
+
   // 浏览器控制台输出
   [
     'script', {}, `
+        console.log('哎呀，被你发现了😜！希望你能喜欢这个博客！');
         console.log('_______________#########_______________________ ');
         console.log('______________############_____________________ ');
         console.log('______________#############____________________ ');
@@ -30,7 +34,6 @@ export const HeadData = [
         console.log('_____#####________####______#####_____###______ ');
         console.log('______#####______;###________###______#________ ');
         console.log('________##_______####________####______________ ');
-        console.log('哎呀，被你发现了😜！希望你能喜欢这个博客！');
       `
   ],
 ];
