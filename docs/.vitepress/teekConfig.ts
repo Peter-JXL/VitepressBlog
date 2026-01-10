@@ -99,6 +99,7 @@ export const teekConfig = defineTeekConfig({
   // 背景图片配置，将整个网站的背景色改为图片。
   bodyBgImg: {
     imgSrc: [
+    'https://image.peterjxl.com/blog/139436858_p0.jpg',   // 花火
     'https://image.peterjxl.com/blog/2025-12-25-2.jpg',   // 琳奈
     'https://image.peterjxl.com/blog/2025-12-25-1.jpg',   // 琳奈
 
