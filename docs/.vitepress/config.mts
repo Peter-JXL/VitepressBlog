@@ -3,16 +3,8 @@ import { defineConfig } from 'vitepress'
 import { teekConfig } from "./teekConfig";
 import { HeadData } from "./config/Head"; 
 import type { HeadConfig } from "vitepress"; // 在文件顶部添加类型导入
-import { RSSOptions, RssPlugin } from "vitepress-plugin-rss";
-import { vitepressPluginLegend } from "vitepress-plugin-legend";
-
-const baseUrl = "https://www.peterjxl.com";
-const RSS: RSSOptions = {
-  title: "晓林的博客",
-  baseUrl,
-  copyright: "Copyright 2022-present 晓林",
-  filename: 'rss.xml'
-};
+import { vitepressPluginLegend } from "vitepress-plugin-legend";  // mermaid
+import { chineseSearchOptimize, pagefindPlugin } from 'vitepress-plugin-pagefind'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -45,14 +37,20 @@ export default defineConfig({
       detailsLabel: "详细信息",
     },
     config(md) {
-      vitepressPluginLegend(md); 
+      vitepressPluginLegend(md)
     },
   },
 
   vite: {
-    // ↓↓↓↓↓
-    // plugins: [RssPlugin(RSS)], //开启 RSS 功能
-    // ↑↑↑↑↑
+    plugins: [
+      pagefindPlugin({
+          btnPlaceholder: '搜索',
+          placeholder: '搜索文档',
+          emptyText: '空空如也',
+          heading: '共: {{searchResult}} 条结果',
+          customSearchQuery: chineseSearchOptimize
+      })
+    ]
   },
   
   themeConfig: {
@@ -290,6 +288,6 @@ export default defineConfig({
     docFooter: {
       prev: "上一页",  
       next: "下一页",
-    },
+    }
   }
 })
