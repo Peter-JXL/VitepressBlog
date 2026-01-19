@@ -99,9 +99,19 @@ export const teekConfig = defineTeekConfig({
   // 背景图片配置，将整个网站的背景色改为图片。
   bodyBgImg: {
     imgSrc: [
-    'https://image.peterjxl.com/blog/139436858_p0.jpg',   // 花火
+    'https://image.peterjxl.com/blog/140014451_p0.jpg', // 哥伦比娅
+    'https://image.peterjxl.com/blog/139811173_p0.jpg', // 哥伦比娅
+    'https://image.peterjxl.com/blog/138613692_p0.jpg', // 哥伦比娅
+    'https://image.peterjxl.com/blog/139980512_p0.jpg', // 哥伦比娅 雅珂达 派蒙
+    
+    'https://image.peterjxl.com/blog/139754531_p0.jpg', //  琳奈
     'https://image.peterjxl.com/blog/2025-12-25-2.jpg',   // 琳奈
     'https://image.peterjxl.com/blog/2025-12-25-1.jpg',   // 琳奈
+
+    'https://image.peterjxl.com/blog/139955382_p0.jpg', // 奥古斯塔
+    'https://image.peterjxl.com/blog/139955461_p0.jpg', // 奥古斯塔
+    'https://image.peterjxl.com/blog/2025-3-23.jpg',  // 坎特蕾拉
+
 
     // 原神
     'https://image.peterjxl.com/blog/134.jpg',  // 胡桃
@@ -110,7 +120,7 @@ export const teekConfig = defineTeekConfig({
     'https://image.peterjxl.com/blog/138439477_p0.jpg', // 芙芙 
     'https://image.peterjxl.com/blog/102890180_p1.png', // 芙芙
     'https://image.peterjxl.com/blog/136656625_p0.jpg', // 芙芙
-    'https://image.peterjxl.com/blog/138613692_p0.jpg', // 哥伦比娅
+
     'https://image.peterjxl.com/blog/138422625_p0.jpg', // 奈芙尔 原神 雅珂达 
     'https://image.peterjxl.com/blog/104486407_p0.jpg', // 雷电将军
     'https://image.peterjxl.com/blog/131754182_p0.jpg', // 丝柯克
@@ -170,6 +180,7 @@ export const teekConfig = defineTeekConfig({
     'https://image.peterjxl.com/blog/116526272_p0.jpg', // 花火
     'https://image.peterjxl.com/blog/117681717_p0.jpg', // 黄泉
     'https://image.peterjxl.com/blog/117466601_p0.png', // 黄泉、花火
+    'https://image.peterjxl.com/blog/139436858_p0.jpg',   // 花火
     'https://image.peterjxl.com/blog/124529422_p0.png', // 三月七，星
     'https://image.peterjxl.com/blog/2025-10-17.jpg', // 三月七
     'https://image.peterjxl.com/blog/2025-09-30.jpg', // 长夜月
