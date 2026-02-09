@@ -99,6 +99,10 @@ export const teekConfig = defineTeekConfig({
   // 背景图片配置，将整个网站的背景色改为图片。
   bodyBgImg: {
     imgSrc: [
+    'https://image.peterjxl.com/blog/2026-02-04.jpg',   // 原神 兹白
+    'https://image.peterjxl.com/blog/140659332_p0.jpg', // 爱莉希雅
+    'https://image.peterjxl.com/blog/140830123_p0.jpg', // 绝区零 妄想天使
+    'https://image.peterjxl.com/blog/140831812_p0.jpg', // 鸣潮 爱弥斯
     'https://image.peterjxl.com/blog/140161372_p0.jpg', // 原神群星 哥伦比娅
     'https://image.peterjxl.com/blog/140002549_p1.jpg', // 哥伦比娅
     'https://image.peterjxl.com/blog/139811173_p0.jpg', // 哥伦比娅
