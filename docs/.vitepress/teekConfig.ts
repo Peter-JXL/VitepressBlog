@@ -104,6 +104,7 @@ export const teekConfig = defineTeekConfig({
     'https://image.peterjxl.com/blog/140830123_p0.jpg', // 绝区零 妄想天使
     'https://image.peterjxl.com/blog/140831812_p0.jpg', // 鸣潮 爱弥斯
     'https://image.peterjxl.com/blog/140161372_p0.jpg', // 原神群星 哥伦比娅
+    'https://image.peterjxl.com/blog/141050669_p0.jpg', // 哥伦比娅
     'https://image.peterjxl.com/blog/140002549_p1.jpg', // 哥伦比娅
     'https://image.peterjxl.com/blog/139811173_p0.jpg', // 哥伦比娅
     'https://image.peterjxl.com/blog/138613692_p0.jpg', // 哥伦比娅
@@ -410,7 +411,7 @@ export const teekConfig = defineTeekConfig({
     // 评论区配置项，根据 provider 不同而不同，具体看对应官网的使用介绍
     options: {
       // twikoo 配置，官网：https://twikoo.js.org/
-      envId: "https://twikoo.peterjxl.com/"
+      envId: "https://peterjxl.netlify.app/.netlify/functions/twikoo"
     },
   },
 });

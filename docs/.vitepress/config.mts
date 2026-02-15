@@ -3,10 +3,8 @@ import { defineConfig } from 'vitepress'
 import { teekConfig } from "./teekConfig";
 import { HeadData } from "./config/Head"; 
 import type { HeadConfig } from "vitepress"; // 在文件顶部添加类型导入
-import { vitepressPluginLegend } from "vitepress-plugin-legend";  // mermaid
 import { chineseSearchOptimize, pagefindPlugin } from 'vitepress-plugin-pagefind'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
  
   title: "晓林的博客",
@@ -35,10 +33,7 @@ export default defineConfig({
       dangerLabel: "危险",
       infoLabel: "信息",
       detailsLabel: "详细信息",
-    },
-    config(md) {
-      vitepressPluginLegend(md)
-    },
+    }
   },
 
   vite: {
