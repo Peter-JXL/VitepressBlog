@@ -7,21 +7,16 @@
   "devDependencies": {
     "markdown-it": "^14.1.0",
     "markdown-it-mathjax3": "^4.3.2",
-    "ora": "5.0",
     "pagefind": "^1.4.0",
     "parallax-js": "^3.1.0",
     "sass": "^1.97.1",
-    "scp2": "^0.5.0",
     "vitepress": "^1.6.4",
-    "vitepress-plugin-legend": "^1.2.1",
     "vitepress-plugin-pagefind": "^0.4.18",
-    "vitepress-plugin-rss": "^0.4.2",
     "vitepress-theme-teek": "^1.5.4"
   },
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "set NODE_OPTIONS=--max-old-space-size=5120 && vitepress build docs",
-    "preview": "vitepress preview docs",
-    "deploy": "npm run build && node ./deploy.js"
+    "preview": "vitepress preview docs"
   }
 }
