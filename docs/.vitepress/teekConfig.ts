@@ -1,6 +1,7 @@
 // 主题配置文件，会被 ./config.mts 引用
 import { defineTeekConfig } from "vitepress-theme-teek/config";
 import { SocialLinks } from "./config/SocialLinks"; //导入社交链接配置
+import { vitepressPluginLegend } from 'vitepress-plugin-legend';
 
 
 export const teekConfig = defineTeekConfig({
@@ -8,6 +9,11 @@ export const teekConfig = defineTeekConfig({
   loading: "博客正在加载中...", // 启用 Loading 动画，为 false 则关闭 Loading 动画，可直接配置 Loading 文案 
   pageStyle: "segment-nav",          // "default" | "card" | "segment" | "card-nav" | "segment-nav"
 
+  
+  post: {
+    postStyle: "card" // 文章列表风格
+  },
+  
   // 首页 Banner 配置，位于首页顶部
   banner: {
     enabled: true, // 是否启用 Banner
@@ -99,6 +105,7 @@ export const teekConfig = defineTeekConfig({
   // 背景图片配置，将整个网站的背景色改为图片。
   bodyBgImg: {
     imgSrc: [
+    'https://image.peterjxl.com/blog/2026-2-16.jpg',   // 银河星空，云上仙宫
     'https://image.peterjxl.com/blog/2026-02-04.jpg',   // 原神 兹白
     'https://image.peterjxl.com/blog/140659332_p0.jpg', // 爱莉希雅
     'https://image.peterjxl.com/blog/140830123_p0.jpg', // 绝区零 妄想天使
@@ -345,7 +352,7 @@ export const teekConfig = defineTeekConfig({
   vitePlugins: {
     sidebarOption: {
       initItems: false,
-      collapsed: true,
+      collapsed: true, // 开启侧边栏折叠功能。true 默认折叠，false 默认不折叠
     },
   },
 
@@ -412,6 +419,11 @@ export const teekConfig = defineTeekConfig({
     options: {
       // twikoo 配置，官网：https://twikoo.js.org/
       envId: "https://peterjxl.netlify.app/.netlify/functions/twikoo"
+    },
+  },
+  markdown: {
+    config: md => {
+      vitepressPluginLegend(md);
     },
   },
 });
