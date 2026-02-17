@@ -5,7 +5,7 @@ import type { Theme } from 'vitepress';
 // 引入样式
 import "./style/index.scss";  // 自定义的全局样式
 import "vitepress-theme-teek/index.css";
-import "vitepress-theme-Teek/vp-plus/nav-blur.scss";          // 导航栏毛玻璃
+import "vitepress-theme-Teek/vp-plus/tk-nav-blur.css";          // 导航栏毛玻璃
 import "vitepress-theme-teek/theme-chalk/tk-mark.css";        // <mark></mark> 样式
 import "vitepress-theme-teek/theme-chalk/tk-blockquote.css";  // > 引用块样式
 import "vitepress-theme-teek/theme-chalk/tk-aside.css";       // 右侧目录栏文字悬停和激活样式

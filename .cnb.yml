@@ -1,7 +1,7 @@
 master:
   push:
     - docker:
-        image: node:20
+        image: node:22
       stages:
         - node -v
         - npm install
