@@ -4,7 +4,12 @@
   "description": "PeterJXL's blog, build with Vuepress",
   "main": "./docs/.vuepress/config.ts",
   "homepage": "http://www.peterjxl.com/",
-  "devDependencies": {
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "set NODE_OPTIONS=--max-old-space-size=5120 && vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "dependencies": {
     "echarts": "^6.0.0",
     "markdown-it": "^14.1.0",
     "markdown-it-mathjax3": "^4.3.2",
@@ -15,10 +20,5 @@
     "vitepress-plugin-legend": "^1.3.0",
     "vitepress-plugin-pagefind": "^0.4.18",
     "vitepress-theme-teek": "^1.5.4"
-  },
-  "scripts": {
-    "dev": "vitepress dev docs",
-    "build": "set NODE_OPTIONS=--max-old-space-size=5120 && vitepress build docs",
-    "preview": "vitepress preview docs"
   }
 }
