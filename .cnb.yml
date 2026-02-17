@@ -5,6 +5,8 @@ master:
       stages:
         - node -v
         - npm install
+        - pwd
+        - ls -la
         - ls -la node_modules/vitepress-theme-Teek/theme-chalk/tk-nav-blur.css || echo "文件不存在"
         - ls -la vitepress-theme-Teek/dist/theme-chalk/tk-nav-blur.css || echo "文件不存在"
         - npm run build
