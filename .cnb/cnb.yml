@@ -5,4 +5,4 @@ main:
     # 要执行的任务
     - stages:
         - name: echo-hello
-          script: echo "hello world"
+          script: echo "Hello VitePress"
