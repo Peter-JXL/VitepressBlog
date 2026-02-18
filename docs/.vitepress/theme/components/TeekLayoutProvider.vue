@@ -14,6 +14,7 @@ import NotFound from "./404.vue";
     <template #not-found>
       <NotFound />
     </template>
+
   </Teek.Layout>
 </template>
 

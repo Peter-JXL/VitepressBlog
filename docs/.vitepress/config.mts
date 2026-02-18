@@ -11,13 +11,28 @@ export default defineConfig({
   description: "个人博客, 编程基础, Java, 效率软件, 读书, 英语, 健身, 生活",
   head: HeadData as HeadConfig[],
   extends: teekConfig,
-  cleanUrls: true,
+  cleanUrls: true,  // 不显示 .html 后缀
   lang: "zh-CN",
   lastUpdated: true,
 
   // https://vitepress.dev/zh/guide/sitemap-generation
   sitemap: {
-    hostname: 'https://www.peterjxl.com'
+    hostname: 'https://www.peterjxl.com',
+    // 使用永久链接生成 sitemap，参考 Teeker 作者
+    transformItems: (items) => {
+      const permalinkItemBak: typeof items = []
+      const permalinks = (globalThis as any).VITEPRESS_CONFIG.site.themeConfig.permalinks
+      items.forEach((item) => {
+        const permalink = permalinks?.map[item.url]
+        if (permalink)
+          permalinkItemBak.push({ url: permalink, lastmod: item.lastmod })
+      });
+      console.log("items")
+      console.log(...items)
+      console.log("permalinkItemBak")
+      console.log(...permalinkItemBak)
+      return [...items, ...permalinkItemBak]
+    },
   },
 
 

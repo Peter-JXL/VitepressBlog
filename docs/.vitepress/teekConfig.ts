@@ -8,11 +8,6 @@ export const teekConfig = defineTeekConfig({
   teekTheme: true,             // 是否启用 teek 主题
   loading: "博客正在加载中...", // 启用 Loading 动画，为 false 则关闭 Loading 动画，可直接配置 Loading 文案 
   pageStyle: "segment-nav",          // "default" | "card" | "segment" | "card-nav" | "segment-nav"
-
-  
-  post: {
-    postStyle: "card" // 文章列表风格
-  },
   
   // 首页 Banner 配置，位于首页顶部
   banner: {
@@ -251,7 +246,7 @@ export const teekConfig = defineTeekConfig({
     'https://image.peterjxl.com/blog/MEME-Kaofish.jpg', // 烤鱼
     ], 
     imgOpacity: 1, // 背景图透明度，选值 0.1 ~ 1.0
-    imgInterval: 20000, //  当有多张背景图时（imgSrc 为数组），设置切换时间，单位：毫秒
+    imgInterval: 30000, //  当有多张背景图时（imgSrc 为数组），设置切换时间，单位：毫秒
     imgShuffle: false, // 是否随机切换
     mask: false // 背景图遮罩
   },
