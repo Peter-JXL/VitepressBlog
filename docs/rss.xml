@@ -9579,9 +9579,18 @@
         <item>
             <title><![CDATA[我的博客变迁：古典派 → 云服务]]></title>
             <link>https://www.peterjxl.com/Blog/Cloud/</link>
-            <guid>https://www.peterjxl.com//Blog/Cloud/</guid>
+            <guid>https://www.peterjxl.com/Blog/Cloud/</guid>
             <pubDate>Sun, 15 Feb 2026 15:04:09 GMT</pubDate>
             <description><![CDATA[我的博客变迁：古典派 → 云服务]]></description>
+            <enclosure url="https://image.peterjxl.com/blog/image-20260215114203-9977r8r.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[通过云函数部署 Twikoo]]></title>
+            <link>https://www.peterjxl.com/Blog/comment-cloud/</link>
+            <guid>https://www.peterjxl.com/Blog/comment-cloud/</guid>
+            <pubDate>Wed, 18 Feb 2026 14:37:33 GMT</pubDate>
+            <description><![CDATA[通过云函数部署 Twikoo]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20260215114203-9977r8r.png">
             </enclosure>
         </item>

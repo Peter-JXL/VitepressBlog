@@ -27,11 +27,7 @@ export default defineConfig({
         if (permalink)
           permalinkItemBak.push({ url: permalink, lastmod: item.lastmod })
       });
-      console.log("items")
-      console.log(...items)
-      console.log("permalinkItemBak")
-      console.log(...permalinkItemBak)
-      return [...items, ...permalinkItemBak]
+      return [...permalinkItemBak]
     },
   },
 
