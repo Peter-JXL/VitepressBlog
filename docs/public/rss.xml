@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="./pretty-feed-v3-genmon.xsl" type="text/xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>从 01 开始</title>
+        <title>晓林的博客</title>
         <link>https://www.peterjxl.com</link>
         <description>个人博客, 编程基础, Java, 效率软件, 读书, 英语, 健身, 生活</description>
         <lastBuildDate>Wed, 24 Dec 2025 12:49:15 GMT</lastBuildDate>
