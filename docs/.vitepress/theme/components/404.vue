@@ -1,80 +1,136 @@
+
 <script setup lang="ts">
-import { withBase, useRouter } from "vitepress";
+import { onMounted, onBeforeUnmount, ref } from "vue";
+import { useRouter } from "vitepress";
 
 const router = useRouter();
+const goHome = () => router.go("/");
 
-const ns = "error-page";
+const count = ref(0);
+const target = 404;
+
+onMounted(() => {
+  // 禁用整个页面滚动（404 页在视图内全屏展示）
+  const html = document.documentElement;
+  const body = document.body;
+  const prevHtmlOverflow = html.style.overflow;
+  const prevBodyOverflow = body.style.overflow;
+  html.style.overflow = "hidden";
+  body.style.overflow = "hidden";
+
+  const duration = 2000;
+  const startTime = performance.now();
+
+  const step = (now: number) => {
+    const progress = Math.min((now - startTime) / duration, 1);
+    count.value = Math.floor(target * progress);
+
+    if (progress < 1) {
+      requestAnimationFrame(step);
+    }
+  };
+
+  requestAnimationFrame(step);
+
+  onBeforeUnmount(() => {
+    html.style.overflow = prevHtmlOverflow;
+    body.style.overflow = prevBodyOverflow;
+  });
+});
 </script>
 
 <template>
-  <div :class="[ns, 'flx-center']">
-    <img :src="withBase('https://image.peterjxl.com/blog/Sparkle-door.png')" :class="`${ns}__img`" alt="404" />
-    <div :class="[`${ns}__detail`, 'flx-column']">
-      <h2>404</h2>
-      <h4>抱歉，您访问的页面不存在~ 🤷‍♂️🤷‍♀️</h4>
-      <h4>请检查路径是否正确，或返回首页</h4>
-      <button @click="router.go('/')">返回首页</button>
+  <div class="error-page-2">
+    <div class="container">
+      <div class="row">
+        <div class="xs-12 md-6 mx-auto">
+          <div id="countUp">
+            <div class="number">{{ count }}</div>
+            <div class="text">页面未找到</div>
+            <div class="text">请检查路径是否正确，或返回首页</div>
+            <button class="home-btn" @click="goHome">返回首页</button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped lang="scss">
-$namespace: error-page;
-
-.#{$namespace} {
+.error-page-2 {
+  position: fixed;
+  top: var(--vp-nav-height);
+  left: 0;
+  right: 0;
+  bottom: 0;
   width: 100%;
-  height: calc(100vh - var(--vp-nav-height));
-  gap: 120px;
+  display: flex;
+  align-items: stretch;
+  background-image: url("https://image.peterjxl.com/blog/andy-holmes-698828-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgba(255, 255, 255, 0.87);
+  overflow: hidden;
+}
 
-  &__detail {
-    h2 {
-      font-size: 60px;
-      color: var(--vp-c-text-1);
-      line-height: 1;
-    }
-    h4 {
-      margin: 10px 0 20px 0;
-      font-size: 19px;
-      font-weight: normal;
-      color: var(--vp-c-text-2);
-    }
+.number{
+  font-family: Consolas;
+}
 
-    button {
-      color: #ffffff;
-      background-color: #395ae3;
-      box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
-      font-size: 14px;
-      width: 100px;
-      height: 32px;
-      padding: 4px 15px;
-      border-radius: 6px;
-      outline: none;
-      position: relative;
-      display: inline-block;
-      font-weight: 400;
-      white-space: nowrap;
-      text-align: center;
-      background-image: none;
-      border: 1px solid transparent;
-      cursor: pointer;
-      transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
-      user-select: none;
-      touch-action: manipulation;
-      line-height: 1.5714285714285714;
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
 
-      &:hover {
-        background-color: #5a79f4;
-      }
-    }
-  }
+.container,
+.container > .row,
+.container > .row > div {
+  height: 100%;
+}
 
-  @media (max-width: 768px) {
-    flex-direction: column;
-    gap: 60px;
-    transform: translateY(-10%);
-    &__detail {
-      align-items: center;
-    }
-  }
+.container {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+#countUp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#countUp .number {
+  font-size: 4rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+#countUp .text {
+  font-weight: 300;
+  text-align: center;
+  margin-top: 0.8rem;
+}
+
+.home-btn {
+  margin-top: 2rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 0.9rem;
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+}
+
+.home-btn:hover {
+  background-color: rgba(255, 255, 255, 0.35);
 }
 </style>
+
