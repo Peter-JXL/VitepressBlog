@@ -36,7 +36,7 @@ export default defineConfig({
     math: true,
     lineNumbers: true,  // 开启行号
     image: {
-      lazyLoading: true  // 默认禁用；设置为 true 可为所有图片启用懒加载。
+      lazyLoading: false  // 默认禁用；设置为 true 可为所有图片启用懒加载。
     },
     // 更改容器默认值标题
     container: {

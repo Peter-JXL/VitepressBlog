@@ -415,6 +415,8 @@ export const teekConfig = defineTeekConfig({
       envId: "https://peterjxl.netlify.app/.netlify/functions/twikoo"
     },
   },
+
+  
   markdown: {
     config: md => {
       vitepressPluginLegend(md);
