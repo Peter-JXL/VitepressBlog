@@ -1,4 +1,3 @@
-
 # Dependency directories
 node_modules
 
@@ -7,6 +6,3 @@ dist
 
 # cache
 docs/.vitepress/cache
-
-# personal server info
-serverInfo.json
