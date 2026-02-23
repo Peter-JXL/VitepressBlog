@@ -9595,5 +9595,14 @@
             <enclosure url="https://image.peterjxl.com/blog/image-20260215114203-9977r8r.png">
             </enclosure>
         </item>
+        <item>
+            <title><![CDATA[建了个人主页]]></title>
+            <link>https://www.peterjxl.com/Blog/homepage/</link>
+            <guid>https://www.peterjxl.com/Blog/homepage/</guid>
+            <pubDate>Wed, 22 Feb 2026 14:37:33 GMT</pubDate>
+            <description><![CDATA[建了个人主页]]></description>
+            <enclosure url="https://image.peterjxl.com/blog/homepage.png">
+            </enclosure>
+        </item>
     </channel>
 </rss>
