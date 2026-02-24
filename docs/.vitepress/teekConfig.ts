@@ -100,21 +100,20 @@ export const teekConfig = defineTeekConfig({
   // 背景图片配置，将整个网站的背景色改为图片。
   bodyBgImg: {
     imgSrc: [
-      'https://image.peterjxl.com/blog/141274290_p0.jpg', // 哥伦比娅 + 桑多涅
+      'https://image.peterjxl.com/blog/2026-02-23.jpg',   //  绝区零 妄想天使
+      'https://image.peterjxl.com/blog/140830123_p0.jpg', // 绝区零 妄想天使
       'https://image.peterjxl.com/blog/140018269_p0.jpg', // 星穹铁道 群星
       'https://image.peterjxl.com/blog/134420820_p0.jpg', // 流萤
-      'https://image.peterjxl.com/blog/2026-02-04.jpg',   // 原神 兹白
-      'https://image.peterjxl.com/blog/140659332_p0.jpg', // 爱莉希雅
-      'https://image.peterjxl.com/blog/140830123_p0.jpg', // 绝区零 妄想天使
+      
       'https://image.peterjxl.com/blog/140831812_p0.jpg', // 鸣潮 爱弥斯
       'https://image.peterjxl.com/blog/140161372_p0.jpg', // 原神群星 哥伦比娅
+      'https://image.peterjxl.com/blog/141274290_p0.jpg', // 哥伦比娅 + 桑多涅
       'https://image.peterjxl.com/blog/141050669_p0.jpg', // 哥伦比娅
       'https://image.peterjxl.com/blog/140002549_p1.jpg', // 哥伦比娅
       'https://image.peterjxl.com/blog/139811173_p0.jpg', // 哥伦比娅
       'https://image.peterjxl.com/blog/138613692_p0.jpg', // 哥伦比娅
       'https://image.peterjxl.com/blog/140014451_p0.jpg', // 哥伦比娅
       'https://image.peterjxl.com/blog/139980512_p0.jpg', // 哥伦比娅 雅珂达 派蒙
-
 
 
       'https://image.peterjxl.com/blog/139754531_p0.jpg', //  琳奈
@@ -137,6 +136,7 @@ export const teekConfig = defineTeekConfig({
       'https://image.peterjxl.com/blog/138422625_p0.jpg', // 奈芙尔 原神 雅珂达 
       'https://image.peterjxl.com/blog/104486407_p0.jpg', // 雷电将军
       'https://image.peterjxl.com/blog/131754182_p0.jpg', // 丝柯克
+      'https://image.peterjxl.com/blog/2026-02-04.jpg',   // 原神 兹白
 
       // 崩坏 3
       'https://image.peterjxl.com/blog/Elysia.jpg', // 爱莉
@@ -144,6 +144,7 @@ export const teekConfig = defineTeekConfig({
       'https://image.peterjxl.com/blog/124205470_p0.jpg', // 爱莉
       'https://image.peterjxl.com/blog/101693777_p0.jpg', // 爱莉
       'https://image.peterjxl.com/blog/134156383_p0.jpg', // 爱莉
+      'https://image.peterjxl.com/blog/140659332_p0.jpg', // 爱莉希雅
       'https://image.peterjxl.com/blog/137445639_p0.jpg', // 爱丽希雅 崩铁
       'https://image.peterjxl.com/blog/2024-6-2-9.png', // 松雀
       'https://image.peterjxl.com/blog/2024-11-10-12.png', // 松雀
