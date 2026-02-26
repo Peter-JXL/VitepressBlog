@@ -277,6 +277,7 @@ export default defineConfig({
               { text: '2023', link: '/2023/' },
               { text: '2024', link: '/2024/' },
               { text: '2025', link: '/2025/' },
+              { text: '2026', link: '/2026/' },
             ]
           },    
         ]
