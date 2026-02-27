@@ -15,6 +15,7 @@ export default defineConfig({
   lang: "zh-CN",
   lastUpdated: true,
 
+
   // https://vitepress.dev/zh/guide/sitemap-generation
   sitemap: {
     hostname: 'https://www.peterjxl.com',
@@ -36,7 +37,7 @@ export default defineConfig({
     math: true,
     lineNumbers: true,  // 开启行号
     image: {
-      lazyLoading: false  // 默认禁用；设置为 true 可为所有图片启用懒加载。
+      lazyLoading: true  // 图片懒加载，默认禁用
     },
     // 更改容器默认值标题
     container: {

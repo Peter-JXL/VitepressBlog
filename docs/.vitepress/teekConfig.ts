@@ -33,6 +33,10 @@ export const teekConfig = defineTeekConfig({
     switchShuffle: false, // 描述信息是否随机切换，为 false 时按顺序切换。descStyle 为 switch 时生效
   },
 
+  post: {
+    coverImgMode: "full", // 文章封面图模式，default 模式下，封面图会显示在文章列表的右边。full 模式下，封面图会变大，尽量铺满整个空间（图片尺寸要足够），且奇数的文章列表封面图会显示在右边，偶数的文章列表封面图显示在左边。
+  },
+
   // 页脚配置
   footerInfo: {
     // 页脚信息，支持 HTML 格式（位于主题版权上方）
@@ -190,9 +194,8 @@ export const teekConfig = defineTeekConfig({
       'https://image.peterjxl.com/blog/2025-09-05.jpg',  // 海瑟音
       'https://image.peterjxl.com/blog/121154474_p11.jpg',// Kafka
       'https://image.peterjxl.com/blog/111072628_p0.png', // Kafka
-      'https://image.peterjxl.com/blog/109349799_p0.jpg', // Kafka
+      'https://image.peterjxl.com/blog/109349799_p0.jpg', // Kafka      
       'https://image.peterjxl.com/blog/116526272_p0.jpg', // 花火
-      'https://image.peterjxl.com/blog/117681717_p0.jpg', // 黄泉
       'https://image.peterjxl.com/blog/117466601_p0.png', // 黄泉、花火
       'https://image.peterjxl.com/blog/139436858_p0.jpg',   // 花火
       'https://image.peterjxl.com/blog/124529422_p0.png', // 三月七，星
