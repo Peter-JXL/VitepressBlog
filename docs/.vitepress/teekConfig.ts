@@ -5,9 +5,11 @@ import { vitepressPluginLegend } from 'vitepress-plugin-legend';
 
 
 export const teekConfig = defineTeekConfig({
-  teekTheme: true,             // 是否启用 teek 主题
-  loading: "博客正在加载中...", // 启用 Loading 动画，为 false 则关闭 Loading 动画，可直接配置 Loading 文案 
-  pageStyle: "segment-nav",          // "default" | "card" | "segment" | "card-nav" | "segment-nav"
+
+  teekTheme: true,          // 启用 teek 主题
+  loading: "博客加载中...", // Loading 动画，可直接配置 Loading 文案.为 false 则关闭
+  pageStyle: "segment-nav",          // 文章页的样式风格 default, card, segment, card-nav, segment-nav
+  homeCardListPosition: "left", // 首页卡片栏列表位置，left 则在文章列表左侧，当为 right 则在文章列表右侧
 
   // 首页 Banner 配置，位于首页顶部
   banner: {
@@ -33,6 +35,7 @@ export const teekConfig = defineTeekConfig({
     switchShuffle: false, // 描述信息是否随机切换，为 false 时按顺序切换。descStyle 为 switch 时生效
   },
 
+  // 文章列表配置
   post: {
     coverImgMode: "full", // 文章封面图模式，default 模式下，封面图会显示在文章列表的右边。full 模式下，封面图会变大，尽量铺满整个空间（图片尺寸要足够），且奇数的文章列表封面图会显示在右边，偶数的文章列表封面图显示在左边。
   },
@@ -67,12 +70,16 @@ export const teekConfig = defineTeekConfig({
       link: "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44011302003646",
     },
   },
+  
+  // 标签卡片配置
+  tag: { 
+    enabled: false  
+  }, 
 
-
-  // 首页卡片栏配置
-  homeCardListPosition: "right", // 首页卡片栏列表位置，当为 left 则在文章列表左侧，当为 right 则在文章列表右侧
-  tag: { enabled: false },  // 标签卡片配置
-  category: { enabled: false },  // 分类卡片配置
+  // 分类卡片配置
+  category: { 
+    enabled: false 
+  },  
 
   // 博主信息，显示在首页左边第一个卡片
   blogger: {
@@ -91,13 +98,14 @@ export const teekConfig = defineTeekConfig({
       title: "困", // 鼠标悬停图标的提示语
     },
   },
+
   social: SocialLinks,   // 社交图标，显示于博主信息栏和页脚栏。参考 https://vp.teek.top/guide/icon-use.html#社交图标-iconfont
 
   // 精选文章卡片配置
   topArticle: {
     enabled: true, // 是否启用精选文章卡片
     limit: 5, // 一页显示的数量
-    autoPage: false, // 是否自动翻页
+    autoPage: true, // 是否自动翻页
     dateFormat: "yyyy-MM-dd hh:mm:ss", // 精选文章的日期格式
   },
 
@@ -261,7 +269,7 @@ export const teekConfig = defineTeekConfig({
   friendLink: {
     enabled: true, // 是否启用友情链接卡片
     limit: 5, // 一页显示的数量
-    autoScroll: false, // 是否自动滚动
+    autoScroll: true, // 是否自动滚动
     list: [
       {
         name: "Teeker",
@@ -326,7 +334,6 @@ export const teekConfig = defineTeekConfig({
     ],
   },
 
-
   // 右下角回到顶部配置
   backTop: {
     enabled: true, // 是否启动回到顶部功能
@@ -344,17 +351,10 @@ export const teekConfig = defineTeekConfig({
   codeBlock: {
     enabled: true, // 是否启用新版代码块
     collapseHeight: 700, // 超出高度后自动折叠，设置 true 则默认折叠，false 则默认不折叠
-    overlay: false, // 代码块底部是否显示展开/折叠遮罩层
+    overlay: true, // 代码块底部是否显示展开/折叠遮罩层
     overlayHeight: 400, // 当出现遮罩层时，指定代码块显示高度，当 overlay 为 true 时生效
     langTextTransform: "uppercase", // 语言文本显示样式，为 text-transform 的值:none, capitalize, lowercase, uppercase
     copiedDone: TkMessage => TkMessage.success("复制成功！"), // 复制代码完成后的回调
-  },
-
-  vitePlugins: {
-    sidebarOption: {
-      initItems: false,
-      collapsed: true, // 开启侧边栏折叠功能。true 默认折叠，false 默认不折叠
-    },
   },
 
   // 文章默认的作者信息
@@ -389,8 +389,6 @@ export const teekConfig = defineTeekConfig({
     ],
   },
 
-
-
   // 赞赏功能配置 https://vp.teek.top/reference/article-config.html#appreciation
   appreciation: {
     position: "doc-after", // 赞赏位置 doc-after 评论区上方；doc-after-popper 以弹框形式出现；aside-bottom 大纲栏下方
@@ -423,10 +421,18 @@ export const teekConfig = defineTeekConfig({
     },
   },
 
+  // 内置 Vite 插件配置
+  vitePlugins: {
+    sidebarOption: {
+      initItems: false,
+      collapsed: true, // 开启侧边栏折叠功能。true 默认折叠，false 默认不折叠
+    },
+  },
 
+  // markdown.plugins, 加载第三方 Markdown-it 插件
   markdown: {
     config: md => {
-      vitepressPluginLegend(md);
+      vitepressPluginLegend(md);  // 渲染 mermaid
     },
   },
 });
