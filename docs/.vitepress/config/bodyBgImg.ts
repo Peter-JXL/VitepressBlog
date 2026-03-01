@@ -3,6 +3,10 @@ import type { BodyBgImg } from "vitepress-theme-teek/config";
 export const BodyBgImgs: BodyBgImg = {
 
   imgSrc: [
+    'https://image.peterjxl.com/blog/96189957_p0.jpg',  // 神子
+    'https://image.peterjxl.com/blog/127166786_p0.jpg', // 神子 瑞希
+    'https://image.peterjxl.com/blog/128019376_p0.jpg', // 鸣神 八条
+    'https://image.peterjxl.com/blog/134732001_p0.jpg', // 死之执政
     'https://image.peterjxl.com/blog/2026-02-23.jpg',   //  绝区零 妄想天使
     'https://image.peterjxl.com/blog/140830123_p0.jpg', // 绝区零 妄想天使
     'https://image.peterjxl.com/blog/140018269_p0.jpg', // 星穹铁道 群星
@@ -49,8 +53,10 @@ export const BodyBgImgs: BodyBgImg = {
 
     // 绝区零
     'https://image.peterjxl.com/blog/122710477_p0.jpg',  // 妮可 & 鲨鱼妹
+    'https://image.peterjxl.com/blog/X@rina_0A-2024-7-6.jpg', // 妮可 超市
     'https://image.peterjxl.com/blog/121269323_p0.jpg',  // 鲨鱼妹
     'https://image.peterjxl.com/blog/123353563_p0.png',  // 柏妮思
+    
 
     // 鸣潮
     'https://image.peterjxl.com/blog/2025-6-12.jpg',    // 卡提希娅 飘然远去的长梦-画师：撸卜
