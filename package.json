@@ -14,10 +14,10 @@
     "markdown-it": "^14.1.0",
     "markdown-it-mathjax3": "^4.3.2",
     "mermaid": "^11.12.2",
-    "oh-my-live2d": "^0.19.3",
     "pagefind": "^1.4.0",
     "sass": "^1.97.1",
     "vitepress": "^1.6.4",
+    "vitepress-plugin-image-preview": "^0.1.1",
     "vitepress-plugin-legend": "^1.3.0",
     "vitepress-plugin-pagefind": "^0.4.18",
     "vitepress-theme-teek": "^1.5.4"

@@ -10,7 +10,7 @@ export const teekConfig = defineTeekConfig({
   teekTheme: true,          // 启用 teek 主题
   loading: "博客加载中...", // Loading 动画，可直接配置 Loading 文案.为 false 则关闭
   pageStyle: "segment-nav",          // 文章页的样式风格 default, card, segment, card-nav, segment-nav
-  homeCardListPosition: "right", // 首页卡片栏列表位置，left 则在文章列表左侧，当为 right 则在文章列表右侧。本来习惯在左侧的，但是配置了看板娘后，左侧的话的移动端样式会崩
+  homeCardListPosition: "left", // 首页卡片栏列表位置
 
   // 首页 Banner 配置
   banner: {
