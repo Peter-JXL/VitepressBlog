@@ -258,7 +258,7 @@ export const teekConfig = defineTeekConfig({
     // 评论区配置项，根据 provider 不同而不同，具体看对应官网的使用介绍
     options: {
       // twikoo 配置，官网：https://twikoo.js.org/
-      envId: "https://peterjxl.netlify.app/.netlify/functions/twikoo"
+      envId: "https://twikoo.peterjxl.com/"
     },
   },
 
