@@ -36,11 +36,6 @@ export const teekConfig = defineTeekConfig({
     switchShuffle: false, // 描述信息是否随机切换，为 false 时按顺序切换。descStyle 为 switch 时生效
   },
 
-  // 文章列表配置
-  post: {
-    coverImgMode: "full", // 文章封面图模式，default 模式下，封面图会显示在文章列表的右边。full 模式下，封面图会变大，尽量铺满整个空间（图片尺寸要足够），且奇数的文章列表封面图会显示在右边，偶数的文章列表封面图显示在左边。
-  },
-
   // 页脚配置
   footerInfo: {
     // 页脚信息，支持 HTML 格式（位于主题版权上方）
@@ -107,7 +102,7 @@ export const teekConfig = defineTeekConfig({
   topArticle: {
     enabled: true, // 是否启用精选文章卡片
     limit: 5, // 一页显示的数量
-    autoPage: true, // 是否自动翻页
+    autoPage: false, // 是否自动翻页
     dateFormat: "yyyy-MM-dd hh:mm:ss", // 精选文章的日期格式
   },
 
@@ -115,7 +110,7 @@ export const teekConfig = defineTeekConfig({
   friendLink: {
     enabled: true, // 是否启用友情链接卡片
     limit: 5, // 一页显示的数量
-    autoScroll: true, // 是否自动滚动
+    autoScroll: false, // 是否自动滚动
     list: [
       {
         name: "Teeker",
