@@ -10,9 +10,9 @@ export const teekConfig = defineTeekConfig({
   teekTheme: true,          // 启用 teek 主题
   loading: "博客加载中...", // Loading 动画，可直接配置 Loading 文案.为 false 则关闭
   pageStyle: "segment-nav",          // 文章页的样式风格 default, card, segment, card-nav, segment-nav
-  homeCardListPosition: "right", // 首页卡片栏列表位置，left 则在文章列表左侧，当为 right 则在文章列表右侧。本来习惯在左侧的，但是发现左侧的话，移动端的样式会崩
+  homeCardListPosition: "right", // 首页卡片栏列表位置，left 则在文章列表左侧，当为 right 则在文章列表右侧。本来习惯在左侧的，但是配置了看板娘后，左侧的话的移动端样式会崩
 
-  // 首页 Banner 配置，位于首页顶部
+  // 首页 Banner 配置
   banner: {
     enabled: true, // 是否启用 Banner
     name: "晓林的博客", // Banner 标题，默认读取 vitepress 的 title 属性
@@ -32,7 +32,7 @@ export const teekConfig = defineTeekConfig({
       '人一旦在付出努力未能实时获得反馈时，就会变得极其懒惰',
       '年轻人的时薪已经比停车位还低了。停车费有 8 小时上限，年轻人没有'
     ], // 描述信息
-    switchTime: 5000, // 描述信息切换间隔时间，单位：毫秒。descStyle 为 switch 时生效
+    switchTime: 6000, // 描述信息切换间隔时间，单位：毫秒。descStyle 为 switch 时生效
     switchShuffle: false, // 描述信息是否随机切换，为 false 时按顺序切换。descStyle 为 switch 时生效
   },
 

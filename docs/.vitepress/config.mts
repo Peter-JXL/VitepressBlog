@@ -34,7 +34,7 @@ export default defineConfig({
 
 
   markdown: {
-    math: true,
+    math: true,         // 启用数学公式支持
     lineNumbers: true,  // 开启行号
     image: {
       lazyLoading: true  // 图片懒加载，默认禁用
