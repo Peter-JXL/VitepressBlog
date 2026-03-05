@@ -9622,5 +9622,14 @@
             <enclosure url="https://image.peterjxl.com/blog/image-20260210145229-1b8o3cm.png">
             </enclosure>
         </item>
+        <item>
+            <title><![CDATA[博友圈]]></title>
+            <link>https://www.peterjxl.com/Blog/blog-circle/</link>
+            <guid>https://www.peterjxl.com/Blog/blog-circle/</guid>
+            <pubDate>Sat, 28 Feb 2026 21:24:23 GMT</pubDate>
+            <description><![CDATA[网上有不少 “博客聚合平台”，致力于收集、推广中文博客，这里简单介绍几个。]]></description>
+            <enclosure url="https://image.peterjxl.com/blog/image-20241116204301-k8k89c5.png">
+            </enclosure>
+        </item>
     </channel>
 </rss>
