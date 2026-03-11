@@ -36,6 +36,30 @@ export const teekConfig = defineTeekConfig({
     switchShuffle: false, // 描述信息是否随机切换，为 false 时按顺序切换。descStyle 为 switch 时生效
   },
 
+  // 文章列表配置 https://vp.teek.top/reference/post-config.html#post
+  post: {
+    postStyle: "list", // 文章列表风格
+    excerptPosition: "top", // 文章摘要位置
+    showMore: true, // 是否显示更多按钮
+    moreLabel: "阅读全文 >", // 更多按钮文字
+    emptyLabel: "暂无文章", // 文章列表为空时的标签
+    coverImgMode: "full", // 文章封面图模式
+    showCapture: false, // 是否在摘要位置显示文章部分文字，当为 true 且不使用 frontmatter.describe 和 <!-- more --> 时，会自动截取前 300 个字符作为摘要
+    splitSeparator: false, // 文章信息（作者、创建时间、分类、标签等信息）是否添加 | 分隔符
+    transition: true, // 是否开启过渡动画
+    transitionName: "tk-slide-fade", // 自定义过渡动画名称
+    listStyleTitleTagPosition: "right", // 列表模式下的标题标签位置（postStyle 为 list）
+    cardStyleTitleTagPosition: "left", // 卡片模式下的标题标签位置（postStyle 为 card）
+    defaultCoverImg: [
+      'https://image.peterjxl.com/blog/Elysia.jpg',       // 爱莉
+      'https://image.peterjxl.com/blog/100649660_p1.png', // 爱莉
+      'https://image.peterjxl.com/blog/124205470_p0.jpg', // 爱莉
+      'https://image.peterjxl.com/blog/139754531_p0.jpg', // 琳奈
+      'https://image.peterjxl.com/blog/2025-12-25-2.jpg', // 琳奈
+      'https://image.peterjxl.com/blog/2025-12-25-1.jpg', // 琳奈
+    ], // 默认封面图地址，如果不设置封面图则使用默认封面图地址
+  },
+
   // 页脚配置
   footerInfo: {
     // 页脚信息，支持 HTML 格式（位于主题版权上方）
@@ -66,16 +90,16 @@ export const teekConfig = defineTeekConfig({
       link: "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44011302003646",
     },
   },
-  
+
   // 标签卡片配置
-  tag: { 
-    enabled: false  
-  }, 
+  tag: {
+    enabled: false
+  },
 
   // 分类卡片配置
-  category: { 
-    enabled: false 
-  },  
+  category: {
+    enabled: false
+  },
 
   // 博主信息，显示在首页左边第一个卡片
   blogger: {

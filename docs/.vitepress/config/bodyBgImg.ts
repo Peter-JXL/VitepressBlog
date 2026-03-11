@@ -9,7 +9,7 @@ export const BodyBgImgs: BodyBgImg = {
     'https://image.peterjxl.com/blog/127166786_p0.jpg', // 神子 瑞希
     'https://image.peterjxl.com/blog/128019376_p0.jpg', // 鸣神 八条
     'https://image.peterjxl.com/blog/134732001_p0.jpg', // 死之执政
-    'https://image.peterjxl.com/blog/2026-02-23.jpg',   //  绝区零 妄想天使
+    'https://image.peterjxl.com/blog/2026-02-23.jpg',   // 绝区零 妄想天使
     'https://image.peterjxl.com/blog/140830123_p0.jpg', // 绝区零 妄想天使
     'https://image.peterjxl.com/blog/140018269_p0.jpg', // 星穹铁道 群星
     'https://image.peterjxl.com/blog/134420820_p0.jpg', // 流萤
@@ -78,7 +78,7 @@ export const BodyBgImgs: BodyBgImg = {
     'https://image.peterjxl.com/blog/2025-04-07.jpg',   // 坎特蕾拉
     'https://image.peterjxl.com/blog/2025-3-23.jpg',    // 坎特蕾拉
     'https://image.peterjxl.com/blog/137499724_p0.jpg', // 赞妮
-    'https://image.peterjxl.com/blog/139754531_p0.jpg', //  琳奈
+    'https://image.peterjxl.com/blog/139754531_p0.jpg', // 琳奈
     'https://image.peterjxl.com/blog/2025-12-25-2.jpg', // 琳奈
     'https://image.peterjxl.com/blog/2025-12-25-1.jpg', // 琳奈
 
