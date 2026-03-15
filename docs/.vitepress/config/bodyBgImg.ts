@@ -3,6 +3,16 @@ import type { BodyBgImg } from "vitepress-theme-teek/config";
 export const BodyBgImgs: BodyBgImg = {
 
   imgSrc: [
+    'https://image.peterjxl.com/blog/137094784_p0.jpg', // 三月七组合
+    'https://image.peterjxl.com/blog/142207274_p0.jpg', // 火花
+    'https://image.peterjxl.com/blog/142052076_p0.jpg', // 爱弥斯
+    'https://image.peterjxl.com/blog/142210069_p0.jpg', // 爱弥斯
+    'https://image.peterjxl.com/blog/142094263_p0.jpg', // Fate
+    'https://image.peterjxl.com/blog/2026-3-12-20.jpg', // 绝区零 妄想天使
+    'https://image.peterjxl.com/blog/2026-3-12-7.jpg',  // 绝区零 妄想天使
+    'https://image.peterjxl.com/blog/142223607_p1.jpg', // 初音
+    'https://image.peterjxl.com/blog/142223607_p3.jpg', // 初音
+    'https://image.peterjxl.com/blog/142223607_p5.jpg', // 初音
     'https://image.peterjxl.com/blog/141743180_p0.jpg', // 初音
     'https://image.peterjxl.com/blog/141913369_p0.jpg', // 花火火花
     'https://image.peterjxl.com/blog/96189957_p0.jpg',  // 神子
@@ -58,7 +68,7 @@ export const BodyBgImgs: BodyBgImg = {
     'https://image.peterjxl.com/blog/X@rina_0A-2024-7-6.jpg', // 妮可 超市
     'https://image.peterjxl.com/blog/121269323_p0.jpg',  // 鲨鱼妹
     'https://image.peterjxl.com/blog/123353563_p0.png',  // 柏妮思
-    
+
 
     // 鸣潮
     'https://image.peterjxl.com/blog/2025-6-12.jpg',    // 卡提希娅 飘然远去的长梦-画师：撸卜
