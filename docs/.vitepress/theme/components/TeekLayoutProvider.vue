@@ -3,6 +3,36 @@ import Teek from "vitepress-theme-teek";
 import ContributeChart from "./ContributeChart.vue";
 import NotFound from "./404.vue";
 
+// 看板娘配置
+import { onMounted } from 'vue';
+onMounted(async () => {
+  const { loadOml2d } = await import('oh-my-live2d');
+  loadOml2d({
+    dockedPosition: 'left',
+    primaryColor: '#A0C6F9', // 模型的主色调，默认为粉色
+    
+    models: [
+      {
+        path: '/rem/model.json',
+      },
+      {
+        path: '/cat-black/model.json',
+      },
+    ],
+
+    menus: {
+      disable: false, // 禁用右键菜单
+    },
+
+    tips: {
+      copyTips: { // 复制提示文本
+        message: ['你复制了什么内容呢?记得注明出处哦~']
+      },
+    }
+
+  });
+});
+
 </script>
 
 <template>
