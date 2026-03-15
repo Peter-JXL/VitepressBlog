@@ -5,25 +5,25 @@ export const BodyBgImgs: BodyBgImg = {
   imgSrc: [
     'https://image.peterjxl.com/blog/137094784_p0.jpg', // 三月七组合
     'https://image.peterjxl.com/blog/142207274_p0.jpg', // 火花
-    'https://image.peterjxl.com/blog/142052076_p0.jpg', // 爱弥斯
-    'https://image.peterjxl.com/blog/142210069_p0.jpg', // 爱弥斯
+    'https://image.peterjxl.com/blog/141913369_p0.jpg', // 花火火花
+    'https://image.peterjxl.com/blog/140018269_p0.jpg', // 星穹铁道 群星
+    'https://image.peterjxl.com/blog/134420820_p0.jpg', // 流萤
     'https://image.peterjxl.com/blog/142094263_p0.jpg', // Fate
     'https://image.peterjxl.com/blog/2026-3-12-20.jpg', // 绝区零 妄想天使
     'https://image.peterjxl.com/blog/2026-3-12-7.jpg',  // 绝区零 妄想天使
+    'https://image.peterjxl.com/blog/2026-02-23.jpg',   // 绝区零 妄想天使
+    'https://image.peterjxl.com/blog/140830123_p0.jpg', // 绝区零 妄想天使
     'https://image.peterjxl.com/blog/142223607_p1.jpg', // 初音
     'https://image.peterjxl.com/blog/142223607_p3.jpg', // 初音
-    'https://image.peterjxl.com/blog/142223607_p5.jpg', // 初音
     'https://image.peterjxl.com/blog/141743180_p0.jpg', // 初音
-    'https://image.peterjxl.com/blog/141913369_p0.jpg', // 花火火花
     'https://image.peterjxl.com/blog/96189957_p0.jpg',  // 神子
     'https://image.peterjxl.com/blog/127166786_p0.jpg', // 神子 瑞希
     'https://image.peterjxl.com/blog/128019376_p0.jpg', // 鸣神 八条
     'https://image.peterjxl.com/blog/134732001_p0.jpg', // 死之执政
-    'https://image.peterjxl.com/blog/2026-02-23.jpg',   // 绝区零 妄想天使
-    'https://image.peterjxl.com/blog/140830123_p0.jpg', // 绝区零 妄想天使
-    'https://image.peterjxl.com/blog/140018269_p0.jpg', // 星穹铁道 群星
-    'https://image.peterjxl.com/blog/134420820_p0.jpg', // 流萤
-
+    
+    
+    'https://image.peterjxl.com/blog/142052076_p0.jpg', // 爱弥斯
+    'https://image.peterjxl.com/blog/142210069_p0.jpg', // 爱弥斯
     'https://image.peterjxl.com/blog/140831812_p0.jpg', // 鸣潮 爱弥斯
     'https://image.peterjxl.com/blog/140161372_p0.jpg', // 原神群星 哥伦比娅
     'https://image.peterjxl.com/blog/141274290_p0.jpg', // 哥伦比娅 & 桑多涅
