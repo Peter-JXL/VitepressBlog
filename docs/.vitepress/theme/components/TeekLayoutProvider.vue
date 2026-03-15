@@ -10,7 +10,7 @@ onMounted(async () => {
   loadOml2d({
     dockedPosition: 'left',
     primaryColor: '#A0C6F9', // 模型的主色调，默认为粉色
-    
+    mobileDisplay: false, // 是否在移动设备上显示模型，默认为 false
     models: [
       {
         path: '/rem/model.json',
