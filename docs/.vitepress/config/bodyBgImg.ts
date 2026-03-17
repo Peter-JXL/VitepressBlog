@@ -96,6 +96,7 @@ export const BodyBgImgs: BodyBgImg = {
     'https://image.peterjxl.com/blog/2025-05-04.jpg',   // 遐蝶
     'https://image.peterjxl.com/blog/2025-02-07.jpg',   // 遐蝶
     'https://image.peterjxl.com/blog/128181590_p0.jpg', // 遐蝶
+    'https://image.peterjxl.com/blog/128063483_p0.jpg', // 遐蝶
     'https://image.peterjxl.com/blog/130724632_p2.jpg', // 风堇
     'https://image.peterjxl.com/blog/121642710_p1.png', // 云璃
     'https://image.peterjxl.com/blog/2025-12-31.jpg',   // 流萤
