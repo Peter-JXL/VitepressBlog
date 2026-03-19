@@ -3,6 +3,8 @@ import type { BodyBgImg } from "vitepress-theme-teek/config";
 export const BodyBgImgs: BodyBgImg = {
 
   imgSrc: [
+    'https://image.peterjxl.com/blog/129010553_p0.jpg', // 遐蝶
+    'https://image.peterjxl.com/blog/137205050_p0.jpg', // 昔涟
     'https://image.peterjxl.com/blog/137094784_p0.jpg', // 三月七组合
     'https://image.peterjxl.com/blog/142207274_p0.jpg', // 火花
     'https://image.peterjxl.com/blog/141913369_p0.jpg', // 花火火花
