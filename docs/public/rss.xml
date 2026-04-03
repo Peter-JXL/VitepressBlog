@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="./pretty-feed-v3-genmon.xsl" type="text/xsl"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0"
+    xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>晓林的博客</title>
         <link>https://www.peterjxl.com</link>
@@ -9649,6 +9650,14 @@
             <enclosure url="https://image.peterjxl.com/blog/huorong.png">
             </enclosure>
         </item>
-
+        <item>
+            <title><![CDATA[2026 年 3 月记]]></title>
+            <link>https://www.peterjxl.com/2026/3/</link>
+            <guid>https://www.peterjxl.com/2026/3/</guid>
+            <pubDate>Tue, 31 Mar 2026 21:24:23 GMT</pubDate>
+            <description><![CDATA[2026 年 3 月记]]></description>
+            <enclosure url="https://image.peterjxl.com/blog/image-20260310142726-leomybk.png">
+            </enclosure>
+        </item>
     </channel>
 </rss>
