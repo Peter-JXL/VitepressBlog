@@ -1,7 +1,7 @@
 // 主题配置文件，会被 ./config.mts 引用
 import { defineTeekConfig } from "vitepress-theme-teek/config";
 import { SocialLinks } from "./config/SocialLinks"; //导入社交链接配置
-import { BodyBgImgs } from "./config/bodyBgImg"; //导入社交链接配置
+import { Imgs } from "./config/BackgroundImg";
 import { vitepressPluginLegend } from 'vitepress-plugin-legend';
 
 
@@ -50,14 +50,7 @@ export const teekConfig = defineTeekConfig({
     transitionName: "tk-slide-fade", // 自定义过渡动画名称
     listStyleTitleTagPosition: "right", // 列表模式下的标题标签位置（postStyle 为 list）
     cardStyleTitleTagPosition: "left", // 卡片模式下的标题标签位置（postStyle 为 card）
-    defaultCoverImg: [
-      'https://image.peterjxl.com/blog/Elysia.jpg',       // 爱莉
-      'https://image.peterjxl.com/blog/100649660_p1.png', // 爱莉
-      'https://image.peterjxl.com/blog/124205470_p0.jpg', // 爱莉
-      'https://image.peterjxl.com/blog/139754531_p0.jpg', // 琳奈
-      'https://image.peterjxl.com/blog/2025-12-25-2.jpg', // 琳奈
-      'https://image.peterjxl.com/blog/2025-12-25-1.jpg', // 琳奈
-    ], // 默认封面图地址，如果不设置封面图则使用默认封面图地址
+    defaultCoverImg: Imgs, // 默认封面图地址，如果不设置封面图则使用默认封面图地址
   },
 
   // 页脚配置
@@ -120,7 +113,15 @@ export const teekConfig = defineTeekConfig({
   },
 
   social: SocialLinks,   // 社交图标，显示于博主信息栏和页脚栏。参考 https://vp.teek.top/guide/icon-use.html#社交图标-iconfont
-  bodyBgImg: BodyBgImgs,   // 背景图片配置，将整个网站的背景色改为图片。
+  
+  // 背景图配置，将整个网站的背景色改为图片
+  bodyBgImg: {
+    imgSrc: Imgs, // 背景图地址，支持单张或多张（数组形式）
+    imgOpacity: 1, // 背景图透明度，选值 0.1 ~ 1.0
+    imgInterval: 30000, //  当有多张背景图时（imgSrc 为数组），设置切换时间，单位：毫秒
+    imgShuffle: false, // 是否随机切换
+    mask: false // 背景图遮罩
+  },   
 
   // 精选文章卡片配置
   topArticle: {
