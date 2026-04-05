@@ -64,7 +64,7 @@ export const Imgs: Array<string> = [
   'https://image.peterjxl.com/blog/2024-09-26-3.png', // 薇塔和花火
   'https://image.peterjxl.com/blog/2024-11-10-4.png', // 薇塔和花火
   'https://image.peterjxl.com/blog/2024-11-10-6.png', // 薇塔和花火
-  'https://image.peterjxl.com/blog/2024-10-12-4.png', // 格蕾修
+  'https://image.peterjxl.com/blog/2024-10-12-4.jpg', // 格蕾修
 
   // 绝区零
   'https://image.peterjxl.com/blog/122710477_p0.jpg',  // 妮可 & 鲨鱼妹
@@ -124,7 +124,7 @@ export const Imgs: Array<string> = [
   'https://image.peterjxl.com/blog/131998699_p0.jpg', // 缇宝
 
   // 日常
-  'https://image.peterjxl.com/backgruond-city.jpg',
+  'https://image.peterjxl.com/blog/backgruond-city.jpg',
 
   // re: zero
   'https://image.peterjxl.com/blog/re-background.jpg',
@@ -160,8 +160,6 @@ export const Imgs: Array<string> = [
   'https://image.peterjxl.com/blog/bingguo.jpg',
 
   'https://image.peterjxl.com/blog/walk-in-space.png', // 太空
-  'https://image.peterjxl.com/blog/182.jpg', // 洛基
   'https://image.peterjxl.com/blog/miaomiao.jpg', // 妙妙！
-  'https://image.peterjxl.com/blog/2025-08-28.jpg', // 烤鱼生日
   'https://image.peterjxl.com/blog/MEME-Kaofish.jpg', // 烤鱼
 ]
