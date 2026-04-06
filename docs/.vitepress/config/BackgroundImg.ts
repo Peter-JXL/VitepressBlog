@@ -9,7 +9,6 @@ export const Imgs: Array<string> = [
   'https://image.peterjxl.com/blog/137094784_p0.jpg', // 三月七组合
   'https://image.peterjxl.com/blog/142207274_p0.jpg', // 火花
   'https://image.peterjxl.com/blog/141913369_p0.jpg', // 花火火花
-  'https://image.peterjxl.com/blog/140018269_p0.jpg', // 星穹铁道 群星
   'https://image.peterjxl.com/blog/134420820_p0.jpg', // 流萤
   'https://image.peterjxl.com/blog/142094263_p0.jpg', // Fate
   'https://image.peterjxl.com/blog/2026-3-12-20.jpg', // 绝区零 妄想天使
