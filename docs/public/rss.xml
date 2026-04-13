@@ -1997,8 +1997,8 @@
         </item>
         <item>
             <title><![CDATA[1-1 计算机网络在信息时代的作用]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/summary/1.1/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/summary/1.1/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/summary/1-1/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/summary/1-1/</guid>
             <pubDate>Thu, 16 Nov 2023 15:41:14 GMT</pubDate>
             <description><![CDATA[计算机网络已由一种通信基础设施发展成为一种重要的信息服务基础设施。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20220112204824-3ruvgk9.png">
@@ -2006,8 +2006,8 @@
         </item>
         <item>
             <title><![CDATA[1-2  因特网概述]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/summary/1.2/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/summary/1.2/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/summary/1-2/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/summary/1-2/</guid>
             <pubDate>Thu, 16 Nov 2023 15:41:21 GMT</pubDate>
             <description><![CDATA[我们首先介绍网络、互联网（互连网）因特网的基本概念。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211207200556-4h566yo.png">
@@ -2015,8 +2015,8 @@
         </item>
         <item>
             <title><![CDATA[1-3 三种交换方式]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/summary/1.3/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/summary/1.3/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/summary/1-3/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/summary/1-3/</guid>
             <pubDate>Thu, 16 Nov 2023 15:41:22 GMT</pubDate>
             <description><![CDATA[本节课我们介绍三种交换方式，分别是电路交换（Circuit Switching），分组交换（Packet Switching）以及报文（Message Switching）交换。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20220112211016-4h01zu1.png">
@@ -2024,8 +2024,8 @@
         </item>
         <item>
             <title><![CDATA[2-1 物理层的基本概念]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/physical-layer/2.1/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/physical-layer/2.1/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/physical-layer/2-1/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/physical-layer/2-1/</guid>
             <pubDate>Thu, 16 Nov 2023 15:48:55 GMT</pubDate>
             <description><![CDATA[在计算机网络中用来连接各种网络设备的传输媒体，种类众多，大致可以分为两类，一类是导引型传输媒体，另一类是非导引型传输媒体]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211211141048-ppyo5wa.png">
@@ -2033,8 +2033,8 @@
         </item>
         <item>
             <title><![CDATA[1-4 计算机网络的定义和分类]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/summary/1.4/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/summary/1.4/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/summary/1-4/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/summary/1-4/</guid>
             <pubDate>Thu, 16 Nov 2023 15:41:22 GMT</pubDate>
             <description><![CDATA[本节课我们介绍计算机网络的定义和分类。首先来看计算机网络的定义，计算机网络的精确定义并未统一，换句话说，全世界没有一个对计算机网络的公认的唯一定义。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20220112214228-tki2fv2.png">
@@ -2042,8 +2042,8 @@
         </item>
         <item>
             <title><![CDATA[1-5 计算机网络的性能指标]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/summary/1.5/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/summary/1.5/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/summary/1-5/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/summary/1-5/</guid>
             <pubDate>Thu, 16 Nov 2023 15:41:22 GMT</pubDate>
             <description><![CDATA[本节课我们介绍计算机网络的性能指标，性能指标可以从不同的方面来度量计算机网络的性能。常用的计算机网络性能指标有以下8个，它们是速率、带宽、吞吐量、时延、时延带宽积，往返时间、利用率，丢包率]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20220112215356-3g3hjjj.png">
@@ -2051,8 +2051,8 @@
         </item>
         <item>
             <title><![CDATA[1-6 计算机体系结构]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/summary/1.6/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/summary/1.6/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/summary/1-6/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/summary/1-6/</guid>
             <pubDate>Thu, 16 Nov 2023 15:41:22 GMT</pubDate>
             <description><![CDATA[从本节课开始，我们要用 4 次课的时间来介绍有关计算机网络体系结构的知识]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20220112222808-b5p3uo9.png">
@@ -2060,8 +2060,8 @@
         </item>
         <item>
             <title><![CDATA[2-2 物理层下面的传输媒体]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/physical-layer/2.2/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/physical-layer/2.2/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/physical-layer/2-2/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/physical-layer/2-2/</guid>
             <pubDate>Thu, 16 Nov 2023 15:49:21 GMT</pubDate>
             <description><![CDATA[请大家注意，传输媒体不属于计算机网络体系结构的任何一层，如果非要将它添加到体系结构中，那只能将其放在物理层之下。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211211141432-cfeih6l.png">
@@ -2069,8 +2069,8 @@
         </item>
         <item>
             <title><![CDATA[2-3 传输方式]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/physical-layer/2.3/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/physical-layer/2.3/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/physical-layer/2-3/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/physical-layer/2-3/</guid>
             <pubDate>Thu, 16 Nov 2023 15:49:21 GMT</pubDate>
             <description><![CDATA[本节课我们介绍几种传输方式]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211211150255-yg8h7wz.png">
@@ -2078,8 +2078,8 @@
         </item>
         <item>
             <title><![CDATA[2-5 信道的极限容量]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/physical-layer/2.5/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/physical-layer/2.5/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/physical-layer/2-5/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/physical-layer/2-5/</guid>
             <pubDate>Thu, 16 Nov 2023 15:49:22 GMT</pubDate>
             <description><![CDATA[本节课我们介绍信道极限容量的有关问题]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211211155741-n7zwc00.png">
@@ -2087,8 +2087,8 @@
         </item>
         <item>
             <title><![CDATA[2-4 编码与调制]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/physical-layer/2.4/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/physical-layer/2.4/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/physical-layer/2-4/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/physical-layer/2-4/</guid>
             <pubDate>Thu, 16 Nov 2023 15:49:22 GMT</pubDate>
             <description><![CDATA[本节课我们介绍编码与调制]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211211152342-c18vb5m.png">
@@ -2096,8 +2096,8 @@
         </item>
         <item>
             <title><![CDATA[3-1 概述]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/data-link-layer/3.1/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/data-link-layer/3.1/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/data-link-layer/3-1/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/data-link-layer/3-1/</guid>
             <pubDate>Thu, 16 Nov 2023 15:55:15 GMT</pubDate>
             <description><![CDATA[本节课我们对数据链路层进行概述，我们首先来看看数据链路层在网络体系结构中的地位。如图所示主机h1给主机h2发送数据，中间要经过三个路由器和电话网、局域网以及广域网等多种网络。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211212101453-hv2qi4d.png">
@@ -2105,8 +2105,8 @@
         </item>
         <item>
             <title><![CDATA[3-2 封装成帧]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/data-link-layer/3.2/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/data-link-layer/3.2/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/data-link-layer/3-2/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/data-link-layer/3-2/</guid>
             <pubDate>Thu, 16 Nov 2023 15:49:49 GMT</pubDate>
             <description><![CDATA[所谓封装成帧就是指数据链路层给上层交付下来的协议数据单元，添加帧头和帧尾，‍‍使之成为帧。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211212102926-19pvyc9.png">
@@ -2114,8 +2114,8 @@
         </item>
         <item>
             <title><![CDATA[3-4 可靠传输]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/data-link-layer/3.4/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/data-link-layer/3.4/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/data-link-layer/3-4/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/data-link-layer/3-4/</guid>
             <pubDate>Thu, 16 Nov 2023 15:49:50 GMT</pubDate>
             <description><![CDATA[本节课我们介绍可靠传输的基本概念。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211212112546-jwcs5h0.png">
@@ -2123,8 +2123,8 @@
         </item>
         <item>
             <title><![CDATA[3-3 差错检测]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/data-link-layer/3.3/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/data-link-layer/3.3/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/data-link-layer/3-3/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/data-link-layer/3-3/</guid>
             <pubDate>Thu, 16 Nov 2023 15:49:50 GMT</pubDate>
             <description><![CDATA[我们知道‍‍实际的通信链路都不是理想的，比特在传输过程中可能会产生差错，1 可能变成 0，‍‍而 0 也可能变成 1，这称为比特差错。使用差错检测码‍‍来检测数据在传输过程中是否产生了比特差错，是数据链路层所要解决的重要问题之一。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211212105801-1te4g3x.png">
@@ -2132,8 +2132,8 @@
         </item>
         <item>
             <title><![CDATA[3-5 点对点协议 PPP]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/data-link-layer/3.5/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/data-link-layer/3.5/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/data-link-layer/3-5/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/data-link-layer/3-5/</guid>
             <pubDate>Thu, 16 Nov 2023 15:49:51 GMT</pubDate>
             <description><![CDATA[本节课我们介绍点对点协议 PPP。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211212153915-nzaeovv.png">
@@ -2141,8 +2141,8 @@
         </item>
         <item>
             <title><![CDATA[3-7 IP 地址]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/data-link-layer/3.7-IP/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/data-link-layer/3.7-IP/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/data-link-layer/3-7-IP/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/data-link-layer/3-7-IP/</guid>
             <pubDate>Thu, 16 Nov 2023 15:49:52 GMT</pubDate>
             <description><![CDATA[在上节课中我们介绍了 MAC 地址的相关知识，‍‍本节课我们介绍 IP 地址的相关知识，需要说明的是 IP 地址属于网络层的范畴，‍‍而非数据链路层的范畴。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211213222209-oep14t7.png">
@@ -2150,8 +2150,8 @@
         </item>
         <item>
             <title><![CDATA[3-6 媒体接入控制的基本概念]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/data-link-layer/3.6/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/data-link-layer/3.6/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/data-link-layer/3-6/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/data-link-layer/3-6/</guid>
             <pubDate>Thu, 16 Nov 2023 15:49:52 GMT</pubDate>
             <description><![CDATA[本节课我们介绍媒体接入控制的基本概念]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20240523165805-jiwrq5x.png">
@@ -2159,8 +2159,8 @@
         </item>
         <item>
             <title><![CDATA[3-7 MAC 地址]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/data-link-layer/3.7-MAC/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/data-link-layer/3.7-MAC/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/data-link-layer/3-7-MAC/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/data-link-layer/3-7-MAC/</guid>
             <pubDate>Thu, 16 Nov 2023 15:49:52 GMT</pubDate>
             <description><![CDATA[从本节课开始，‍‍我们将用三次课的时间分别介绍 MAC 地址、IP 地址、ARP 协议：]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211213215041-xx0h5a7.png">
@@ -2168,8 +2168,8 @@
         </item>
         <item>
             <title><![CDATA[3-7 ARP 协议]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/data-link-layer/3.7-ARP/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/data-link-layer/3.7-ARP/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/data-link-layer/3-7-ARP/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/data-link-layer/3-7-ARP/</guid>
             <pubDate>Thu, 16 Nov 2023 15:49:52 GMT</pubDate>
             <description><![CDATA[在之前的课程中，‍‍我们分别介绍了属于数据链路层范畴的 MAC 地址和属于网络层范畴的 IP 地址，‍‍以及数据包在传输过程中 IP 地址和 MAC 地址的变化情况之后，我们提出了这样一个问题，‍‍那就是如何通过 IP 地址找到其相应的 IP 地址？‍‍这就是本节课我们将要介绍的地址解析协议，ARP 所要实现的主要功能。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211214193425-nqs2ice.png">
@@ -2177,8 +2177,8 @@
         </item>
         <item>
             <title><![CDATA[3-8 集线器与交换机的区别]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/data-link-layer/3.8/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/data-link-layer/3.8/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/data-link-layer/3-8/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/data-link-layer/3-8/</guid>
             <pubDate>Thu, 16 Nov 2023 15:49:52 GMT</pubDate>
             <description><![CDATA[本节课我们介绍集线器与交换机的区别，我们首先来看早期的总线型以太网，这是我们之前课程中经常用来举例的总线型以太网，他最初使用粗铜轴电缆作为传输媒体，后来演进到使用价格相对便宜的细同轴电缆。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211214194237-f1vvcv5.png">
@@ -2186,8 +2186,8 @@
         </item>
         <item>
             <title><![CDATA[3-9 以太网交换机自学习和转发帧的流程]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/data-link-layer/3.9/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/data-link-layer/3.9/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/data-link-layer/3-9/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/data-link-layer/3-9/</guid>
             <pubDate>Thu, 16 Nov 2023 15:49:53 GMT</pubDate>
             <description><![CDATA[在上节课中，我们对比了在物理层扩展以太网的集线器，和在数据链路层扩展以太网的交换机。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211222214216-pxlrs7u.png">
@@ -2195,8 +2195,8 @@
         </item>
         <item>
             <title><![CDATA[3-10 以太网交换机的生成树协议 STP]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/data-link-layer/3.10/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/data-link-layer/3.10/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/data-link-layer/3-10/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/data-link-layer/3-10/</guid>
             <pubDate>Thu, 16 Nov 2023 15:49:53 GMT</pubDate>
             <description><![CDATA[我们介绍以太网交换机生成树协议的基本概念。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20240525113427-j2lht3i.png">
@@ -2204,8 +2204,8 @@
         </item>
         <item>
             <title><![CDATA[4-1 网络层概述]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/network-layer/4.1/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/network-layer/4.1/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/network-layer/4-1/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/network-layer/4-1/</guid>
             <pubDate>Thu, 16 Nov 2023 16:15:19 GMT</pubDate>
             <description><![CDATA[从本节课开始，我们进入第 4 章网络层的学习。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211214220524-lvugr1r.png">
@@ -2213,8 +2213,8 @@
         </item>
         <item>
             <title><![CDATA[3-11 虚拟局域网 VLAN]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/data-link-layer/3.11/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/data-link-layer/3.11/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/data-link-layer/3-11/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/data-link-layer/3-11/</guid>
             <pubDate>Thu, 16 Nov 2023 15:49:49 GMT</pubDate>
             <description><![CDATA[本节课我们介绍虚拟局域网 VLAN 的基本概念。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211214201444-7xhrhlu.png">
@@ -2222,8 +2222,8 @@
         </item>
         <item>
             <title><![CDATA[4-2 网络层提供的两种服务]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/network-layer/4.2/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/network-layer/4.2/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/network-layer/4-2/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/network-layer/4-2/</guid>
             <pubDate>Thu, 16 Nov 2023 15:51:15 GMT</pubDate>
             <description><![CDATA[本节课我们介绍网络层提供的两种服务，一种是面向连接的虚电路服务，另一种是无连接的数据报服务。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211215203931-6udznks.png">
@@ -2231,8 +2231,8 @@
         </item>
         <item>
             <title><![CDATA[4-3 IPv4 地址]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/network-layer/4.3/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/network-layer/4.3/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/network-layer/4-3/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/network-layer/4-3/</guid>
             <pubDate>Thu, 16 Nov 2023 15:51:16 GMT</pubDate>
             <description><![CDATA[本节课我们介绍 IPv4 地址的基本概念]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211215204601-uwijsbt.png">
@@ -2240,8 +2240,8 @@
         </item>
         <item>
             <title><![CDATA[4-4 IP 数据报的发送和转发过程]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/network-layer/4.4/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/network-layer/4.4/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/network-layer/4-4/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/network-layer/4-4/</guid>
             <pubDate>Thu, 16 Nov 2023 15:51:17 GMT</pubDate>
             <description><![CDATA[本节课我们介绍 IP 数据报的发送和转发过程。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211216194827-csok9f4.png">
@@ -2249,8 +2249,8 @@
         </item>
         <item>
             <title><![CDATA[4-5 静态路由配置及其可能产生的路由环路问题]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/network-layer/4.5/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/network-layer/4.5/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/network-layer/4-5/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/network-layer/4-5/</guid>
             <pubDate>Thu, 16 Nov 2023 15:51:17 GMT</pubDate>
             <description><![CDATA[本节课我们介绍静态路由配置及其可能产生的路由环路问题。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211216203055-t9zvn89.png">
@@ -2258,8 +2258,8 @@
         </item>
         <item>
             <title><![CDATA[4-7 IPv4 数据报的首部格式]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/network-layer/4.7/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/network-layer/4.7/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/network-layer/4-7/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/network-layer/4-7/</guid>
             <pubDate>Thu, 16 Nov 2023 15:49:41 GMT</pubDate>
             <description><![CDATA[本节课我们介绍 IPv4 数据报的首部格式。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211218112414-eseoapn.png">
@@ -2267,8 +2267,8 @@
         </item>
         <item>
             <title><![CDATA[4-8 网际控制报文协议 ICMP]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/network-layer/4.8/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/network-layer/4.8/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/network-layer/4-8/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/network-layer/4-8/</guid>
             <pubDate>Thu, 16 Nov 2023 15:51:39 GMT</pubDate>
             <description><![CDATA[本节课我们介绍网际控制报文协议 ICMP （Internet Control Message Protocol）]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211218213908-451999e.png">
@@ -2276,8 +2276,8 @@
         </item>
         <item>
             <title><![CDATA[4-6 路由选择]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/network-layer/4.6/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/network-layer/4.6/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/network-layer/4-6/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/network-layer/4-6/</guid>
             <pubDate>Thu, 16 Nov 2023 15:51:15 GMT</pubDate>
             <description><![CDATA[本节课我们介绍路由选择协议的相关基本概念，路由选择可分为静态路由选择和动态路由选择两类。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211216204858-1jhp5sk.png">
@@ -2285,8 +2285,8 @@
         </item>
         <item>
             <title><![CDATA[4-9 虚拟专用网 VPN 与网络地址转换 NAT]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/network-layer/4.9/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/network-layer/4.9/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/network-layer/4-9/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/network-layer/4-9/</guid>
             <pubDate>Thu, 16 Nov 2023 15:51:38 GMT</pubDate>
             <description><![CDATA[本节课我们介绍虚拟专用网 VPN（Virtual Private Network）和网络地址转换 NAT 的基本工作原理。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211218215704-0mmlrg2.png">
@@ -2294,8 +2294,8 @@
         </item>
         <item>
             <title><![CDATA[5-1 运输层概述]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/Transport-layer/5.1/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/Transport-layer/5.1/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/Transport-layer/5-1/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/Transport-layer/5-1/</guid>
             <pubDate>Thu, 16 Nov 2023 15:51:50 GMT</pubDate>
             <description><![CDATA[从本节课开始，我们进入第 5 章运输层的学习。本节课我们对运输层进行概述，之前课程所介绍的计算机网络体系结构中的物理层，数据链路层以及网络层，他们共同解决了将主机通过异构网络互联起来所面临的问题，实现了主机到主机的通信。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211218223749-aq6rmjn.png">
@@ -2303,8 +2303,8 @@
         </item>
         <item>
             <title><![CDATA[5-2 运输层端口号、复用与分用的概念]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/Transport-layer/5.2/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/Transport-layer/5.2/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/Transport-layer/5-2/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/Transport-layer/5-2/</guid>
             <pubDate>Thu, 16 Nov 2023 15:51:56 GMT</pubDate>
             <description><![CDATA[复用：就是可以重复使用的意思，即各个应用层协议都可以使用 TCP 协议。分用：就是 TCP 根据端口号，将报文分给不同的应用进程。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211218224317-ip0e0lf.png">
@@ -2312,8 +2312,8 @@
         </item>
         <item>
             <title><![CDATA[5-3 UDP 和 TCP 的对比]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/Transport-layer/5.3/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/Transport-layer/5.3/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/Transport-layer/5-3/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/Transport-layer/5-3/</guid>
             <pubDate>Thu, 16 Nov 2023 15:51:57 GMT</pubDate>
             <description><![CDATA[本节课我们将从几个方面对比 UDP 和 TCP。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211219094912-e7zf6rn.png">
@@ -2321,8 +2321,8 @@
         </item>
         <item>
             <title><![CDATA[5-4 TCP 的流量控制]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/Transport-layer/5.4/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/Transport-layer/5.4/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/Transport-layer/5-4/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/Transport-layer/5-4/</guid>
             <pubDate>Thu, 16 Nov 2023 15:51:57 GMT</pubDate>
             <description><![CDATA[本节课我们介绍 TCP 的流量控制。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211219102013-pdxi38m.png">
@@ -2330,8 +2330,8 @@
         </item>
         <item>
             <title><![CDATA[5-7 TCP 可靠传输的实现]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/Transport-layer/5.7/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/Transport-layer/5.7/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/Transport-layer/5-7/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/Transport-layer/5-7/</guid>
             <pubDate>Thu, 16 Nov 2023 15:51:58 GMT</pubDate>
             <description><![CDATA[本节课我们介绍 TCP 可靠传输的实现。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211219114629-eieteli.png">
@@ -2339,8 +2339,8 @@
         </item>
         <item>
             <title><![CDATA[5.6 TCP 超时重传时间的选择]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/Transport-layer/5.6/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/Transport-layer/5.6/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/Transport-layer/5-6/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/Transport-layer/5-6/</guid>
             <pubDate>Thu, 16 Nov 2023 15:51:58 GMT</pubDate>
             <description><![CDATA[本节课我们介绍 TCP 超时重传时间的选择，超时重传时间的选择是 TCP 最复杂的问题之一。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211219110853-n2lzkwb.png">
@@ -2348,8 +2348,8 @@
         </item>
         <item>
             <title><![CDATA[5-5 TCP 的拥塞控制]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/Transport-layer/5.5/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/Transport-layer/5.5/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/Transport-layer/5-5/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/Transport-layer/5-5/</guid>
             <pubDate>Thu, 16 Nov 2023 15:51:58 GMT</pubDate>
             <description><![CDATA[本节课我们介绍 TCP 的拥塞控制]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211219103219-hgtok2p.png">
@@ -2357,8 +2357,8 @@
         </item>
         <item>
             <title><![CDATA[5-8 TCP 的运输连接管理]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/Transport-layer/5.8/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/Transport-layer/5.8/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/Transport-layer/5-8/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/Transport-layer/5-8/</guid>
             <pubDate>Thu, 16 Nov 2023 15:51:59 GMT</pubDate>
             <description><![CDATA[从本节课开始，我们将分两次课来介绍 TCP 的运输连接管理]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211219145619-uxuewc1.png">
@@ -2366,8 +2366,8 @@
         </item>
         <item>
             <title><![CDATA[5-9 TCP 报文段的首部格式]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/Transport-layer/5.9/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/Transport-layer/5.9/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/Transport-layer/5-9/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/Transport-layer/5-9/</guid>
             <pubDate>Thu, 16 Nov 2023 15:51:56 GMT</pubDate>
             <description><![CDATA[本节课我们介绍 TCP 报文段的首部格式。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211219151652-gmrn5k3.png">
@@ -2375,8 +2375,8 @@
         </item>
         <item>
             <title><![CDATA[6-1 应用层概述]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/application-layer/6.1/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/application-layer/6.1/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/application-layer/6-1/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/application-layer/6-1/</guid>
             <pubDate>Thu, 16 Nov 2023 15:52:14 GMT</pubDate>
             <description><![CDATA[从本节课开始，我们进入第 6 章应用层的学习。本节课我们对应用层进行概述，在之前的课程中，我们按计算机网络体系结构，由低到高的顺序，依次学习了物理层、数据链路层、网络层、运输层。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211219165955-zn30b6r.png">
@@ -2384,8 +2384,8 @@
         </item>
         <item>
             <title><![CDATA[6-2 客户—服务器方式和对等方式]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/application-layer/6.2/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/application-layer/6.2/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/application-layer/6-2/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/application-layer/6-2/</guid>
             <pubDate>Thu, 16 Nov 2023 15:52:27 GMT</pubDate>
             <description><![CDATA[本节课我们介绍客户服务器方式和对等方式。我们知道网络应用程序运行在处于网络边缘的不同端系统上，通过彼此间的通信来共同完成某项任务。因此开发一种新的网络应用，首先要考虑的问题就是网络应用程序，在各种端系统上的组织方式和他们之间的关系。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20231116162117-74mnp04.png">
@@ -2393,8 +2393,8 @@
         </item>
         <item>
             <title><![CDATA[6-3 动态主机配置协议 DHCP]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/application-layer/6.3/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/application-layer/6.3/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/application-layer/6-3/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/application-layer/6-3/</guid>
             <pubDate>Thu, 16 Nov 2023 15:52:27 GMT</pubDate>
             <description><![CDATA[本节课我们介绍动态主机配置协议 DHCP。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211219170857-agbg7fb.png">
@@ -2402,8 +2402,8 @@
         </item>
         <item>
             <title><![CDATA[6-4 域名系统 DNS]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/application-layer/6.4/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/application-layer/6.4/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/application-layer/6-4/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/application-layer/6-4/</guid>
             <pubDate>Thu, 16 Nov 2023 15:52:28 GMT</pubDate>
             <description><![CDATA[本节课我们介绍域名系统 DNS。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211219193242-fycy2cz.png">
@@ -2411,8 +2411,8 @@
         </item>
         <item>
             <title><![CDATA[6-5 文件传送协议 FTP]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/application-layer/6.5/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/application-layer/6.5/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/application-layer/6-5/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/application-layer/6-5/</guid>
             <pubDate>Thu, 16 Nov 2023 15:52:28 GMT</pubDate>
             <description><![CDATA[本节课我们介绍文件传送协议 FTP。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211219215057-lgn9xnc.png">
@@ -2420,8 +2420,8 @@
         </item>
         <item>
             <title><![CDATA[6-6 电子邮件]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/application-layer/6.6/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/application-layer/6.6/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/application-layer/6-6/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/application-layer/6-6/</guid>
             <pubDate>Thu, 16 Nov 2023 15:52:29 GMT</pubDate>
             <description><![CDATA[电子邮件是因特网上最早流行的一种应用，并且仍然是当今因特网上最重要对使用的应用之一。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211219220441-7wvzbkb.png">
@@ -2429,8 +2429,8 @@
         </item>
         <item>
             <title><![CDATA[6-7 万维网 WWW]]></title>
-            <link>https://www.peterjxl.com/Computer/Network/application-layer/6.7/</link>
-            <guid>https://www.peterjxl.com/Computer/Network/application-layer/6.7/</guid>
+            <link>https://www.peterjxl.com/Computer/Network/application-layer/6-7/</link>
+            <guid>https://www.peterjxl.com/Computer/Network/application-layer/6-7/</guid>
             <pubDate>Thu, 16 Nov 2023 15:52:26 GMT</pubDate>
             <description><![CDATA[本节课我们介绍万维网。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20211220204022-r4johhn.png">
@@ -7040,8 +7040,8 @@
         </item>
         <item>
             <title><![CDATA[CapsLock+，Windows 上的快捷键神器]]></title>
-            <link>https://www.peterjxl.com/typewriting/CapsLock+/</link>
-            <guid>https://www.peterjxl.com/typewriting/CapsLock+/</guid>
+            <link>https://www.peterjxl.com/typewriting/CapsLock/</link>
+            <guid>https://www.peterjxl.com/typewriting/CapsLock/</guid>
             <pubDate>Sun, 27 Oct 2024 23:45:59 GMT</pubDate>
             <description><![CDATA[我们在文字编辑时，经常会遇到一个问题：键盘的方向键「上下左右」离主键位区挺远的，如果要移动光标的方向就得挪右手过去操作方向键（或者用鼠标）。对于经常码字（或敲代码）的人来说，这其实是非常麻烦的一件事。因为大多数时候，一篇文章或代码不是一蹴而就的，而是要反复修改的，移动光标的操作频率并不低。]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20241031191539-o1z875d.png">

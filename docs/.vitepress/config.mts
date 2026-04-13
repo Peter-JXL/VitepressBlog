@@ -4,9 +4,10 @@ import { teekConfig } from "./teekConfig"
 import { HeadData } from "./config/Head"
 import type { HeadConfig } from "vitepress"; // 在文件顶部添加类型导入
 import { chineseSearchOptimize, pagefindPlugin } from 'vitepress-plugin-pagefind'
+import { createRewrites } from "vitepress-theme-teek/config";
 
 export default defineConfig({
- 
+
   title: "晓林的博客",
   description: "个人博客, 编程基础, Java, 效率软件, 读书, 英语, 健身, 生活",
   head: HeadData as HeadConfig[],
@@ -14,22 +15,11 @@ export default defineConfig({
   cleanUrls: true,  // 不显示 .html 后缀
   lang: "zh-CN",
   lastUpdated: true,
-
+  rewrites: createRewrites({ srcDir: "docs" }),
 
   // https://vitepress.dev/zh/guide/sitemap-generation
   sitemap: {
     hostname: 'https://www.peterjxl.com',
-    // 使用永久链接生成 sitemap，参考 Teeker 作者
-    transformItems: (items) => {
-      const permalinkItemBak: typeof items = []
-      const permalinks = (globalThis as any).VITEPRESS_CONFIG.site.themeConfig.permalinks
-      items.forEach((item) => {
-        const permalink = permalinks?.map[item.url]
-        if (permalink)
-          permalinkItemBak.push({ url: permalink, lastmod: item.lastmod })
-      });
-      return [...permalinkItemBak]
-    },
   },
 
 
@@ -51,16 +41,17 @@ export default defineConfig({
 
   vite: {
     plugins: [
+      // 本地搜索
       pagefindPlugin({
-          btnPlaceholder: '搜索',
-          placeholder: '搜索文档',
-          emptyText: '空空如也',
-          heading: '共: {{searchResult}} 条结果',
-          customSearchQuery: chineseSearchOptimize
+        btnPlaceholder: '搜索',
+        placeholder: '搜索文档',
+        emptyText: '空空如也',
+        heading: '共: {{searchResult}} 条结果',
+        customSearchQuery: chineseSearchOptimize
       })
     ]
   },
-  
+
   themeConfig: {
 
     // https://vitepress.dev/reference/default-theme-config
@@ -71,7 +62,7 @@ export default defineConfig({
         items: [
           {
             text: '📚 计算机基础',
-            items:[
+            items: [
               { text: '计算机简史', link: '/Computer/History/' },
               { text: '数字电路', link: '/Computer/Digital-Circuit/' },
               { text: '计算机组成原理', link: '/Computer/Principles-of-Computer-Organization/' },
@@ -142,7 +133,7 @@ export default defineConfig({
           },
         ]
       },
-      
+
       {
         text: '🛠️软件',
         items: [
@@ -153,11 +144,11 @@ export default defineConfig({
           { text: '手机相关技巧', link: '/Phone/' },
           { text: 'Office', link: '/Office/' },
           { text: '图片类工具', link: '/Picture/' },
-          { text: '效率类工具', link: '/Productive-Tool/' },          
+          { text: '效率类工具', link: '/Productive-Tool/' },
           { text: '码字工具', link: '/Word-Processing-Tool/' },
           { text: '各大平台', link: '/Internet-Giant/' },
         ]
-      },    
+      },
       {
         text: '👔 职场',
         items: [
@@ -169,7 +160,7 @@ export default defineConfig({
           { text: '自媒体', link: '/WeMedia/' },
         ]
       },
-      
+
       {
         text: '📚 学习',
         items: [
@@ -190,7 +181,7 @@ export default defineConfig({
           },
           {
             text: '🏛️ 政治',
-            items: [          
+            items: [
               { text: '新闻合订本', link: '/News/' },
               { text: '反腐', link: '/Anti-Corruption/' },
               { text: 'GFW', link: '/GFW/' },
@@ -216,11 +207,11 @@ export default defineConfig({
               { text: '口腔健康', link: '/Fitness/Oral-Health/' },
               { text: '学会呼吸', link: '/Fitness/Breathe/' },
               { text: '健身日志', link: '/Fitness/Log/' },
-            ] 
+            ]
           },
           {
             text: '🏠 其他',
-            items:[
+            items: [
               { text: '驾驶技能', link: '/driving-skill/' },
               { text: '租房与买房', link: '/property/' },
               { text: '厨艺', link: '/cooking/' },
@@ -231,34 +222,34 @@ export default defineConfig({
       {
         text: '🎮 娱乐',
         items: [
-          { 
+          {
             text: '电影', items: [
               // { text: '电影软件', link: '/movie-software/' },  
-              { text: '电影推荐', link: '/Movie-Recommend/' },  
-            ] 
+              { text: '电影推荐', link: '/Movie-Recommend/' },
+            ]
           },
-          { 
+          {
             text: '电视剧', link: '/teleplay/'
           },
-          { 
+          {
             text: '漫画', items: [
-              { text: '漫画软件', link: '/Comic-Software/' },  
-              { text: '漫画推荐', link: '/Comic-Recommend/' },  
-            ] 
+              { text: '漫画软件', link: '/Comic-Software/' },
+              { text: '漫画推荐', link: '/Comic-Recommend/' },
+            ]
           },
-          { 
+          {
             text: '游戏', items: [
-              { text: 'Steam', link: '/Steam/' },  
-              { text: '三国杀', link: '/Sanguosha/' },  
-              { text: '求生之路', link: '/L4D2/' },  
-            ] 
+              { text: 'Steam', link: '/Steam/' },
+              { text: '三国杀', link: '/Sanguosha/' },
+              { text: '求生之路', link: '/L4D2/' },
+            ]
           },
-          { 
+          {
             text: '小说', link: '/Fiction/'
           },
         ]
       },
-  
+
       {
         text: '👨‍💻 关于',
         items: [
@@ -280,7 +271,7 @@ export default defineConfig({
               { text: '2025', link: '/2025/' },
               { text: '2026', link: '/2026/' },
             ]
-          },    
+          },
         ]
       }
     ],
@@ -295,8 +286,17 @@ export default defineConfig({
 
     // 前后文章跳转按钮的文字
     docFooter: {
-      prev: "上一页",  
+      prev: "上一页",
       next: "下一页",
-    }
+    },
+
+    // search: {
+    //   provider: "algolia",
+    //   options: {
+    //     appId: '...', // 你的 Application ID
+    //     apiKey: '...', // 你的Search API Key
+    //     indexName: 'chunge16vitepress' // 你的indexName
+    //   }
+    // },
   }
 })
