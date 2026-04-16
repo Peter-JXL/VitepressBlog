@@ -290,8 +290,7 @@ export const teekConfig = defineTeekConfig({
   // 内置 Vite 插件配置
   vitePlugins: {
     sidebarOption: {
-      resolveRule: "filePath", // 详见 https://vp.teek.top/guide/permalink.html#侧边栏方式
-      initItems: false,
+      resolveRule: "rewrites", // 可选 rewrites, filePath 详见 https://vp.teek.top/guide/permalink.html
       collapsed: true, // 开启侧边栏折叠功能。true 默认折叠，false 默认不折叠
     },
   },
