@@ -3899,15 +3899,15 @@
         </item>
         <item>
             <title><![CDATA[日志介绍]]></title>
-            <link>https://www.peterjxl.com/JAVAEE/log-introduce/</link>
-            <guid>https://www.peterjxl.com/JAVAEE/log-introduce/</guid>
+            <link>https://www.peterjxl.com/JavaEE/log-introduce/</link>
+            <guid>https://www.peterjxl.com/JavaEE/log-introduce/</guid>
             <pubDate>Thu, 01 Dec 2022 22:35:53 GMT</pubDate>
             <description><![CDATA[不管是什么编程语言，都需要用到日志。]]></description>
         </item>
         <item>
             <title><![CDATA[print 大法]]></title>
-            <link>https://www.peterjxl.com/JAVAEE/log-print/</link>
-            <guid>https://www.peterjxl.com/JAVAEE/log-print/</guid>
+            <link>https://www.peterjxl.com/JavaEE/log-print/</link>
+            <guid>https://www.peterjxl.com/JavaEE/log-print/</guid>
             <pubDate>Tue, 29 Nov 2022 21:19:29 GMT</pubDate>
             <description><![CDATA[最原始的日志输出方式]]></description>
         </item>
@@ -3922,8 +3922,8 @@
         </item>
         <item>
             <title><![CDATA[一个日志框架的设计]]></title>
-            <link>https://www.peterjxl.com/JAVAEE/log-framework-design/</link>
-            <guid>https://www.peterjxl.com/JAVAEE/log-framework-design/</guid>
+            <link>https://www.peterjxl.com/JavaEE/log-framework-design/</link>
+            <guid>https://www.peterjxl.com/JavaEE/log-framework-design/</guid>
             <pubDate>Sat, 03 Dec 2022 17:37:33 GMT</pubDate>
             <description><![CDATA[日志框架内部的原理]]></description>
             <enclosure url="https://image.peterjxl.com/blog/640-20221130080153-45hliky.png">
@@ -3931,8 +3931,8 @@
         </item>
         <item>
             <title><![CDATA[常见的日志框架-简单介绍]]></title>
-            <link>https://www.peterjxl.com/JAVAEE/log-popular-framework/</link>
-            <guid>https://www.peterjxl.com/JAVAEE/log-popular-framework/</guid>
+            <link>https://www.peterjxl.com/JavaEE/log-popular-framework/</link>
+            <guid>https://www.peterjxl.com/JavaEE/log-popular-framework/</guid>
             <pubDate>Sat, 03 Dec 2022 16:34:58 GMT</pubDate>
             <description><![CDATA[不自己造轮子]]></description>
             <enclosure url="https://image.peterjxl.com/blog/image-20221130223932-7p37klr.png">
@@ -3940,22 +3940,22 @@
         </item>
         <item>
             <title><![CDATA[JDK Logging]]></title>
-            <link>https://www.peterjxl.com/JAVAEE/JUL/</link>
-            <guid>https://www.peterjxl.com/JAVAEE/JUL/</guid>
+            <link>https://www.peterjxl.com/JavaEE/JUL/</link>
+            <guid>https://www.peterjxl.com/JavaEE/JUL/</guid>
             <pubDate>Sat, 03 Dec 2022 17:38:15 GMT</pubDate>
             <description><![CDATA[在 Java1.4，Java 标准库内部就提供了这个工具类， java.util.logging]]></description>
         </item>
         <item>
             <title><![CDATA[日志的一些小技巧]]></title>
-            <link>https://www.peterjxl.com/JAVAEE/log-tips/</link>
-            <guid>https://www.peterjxl.com/JAVAEE/log-tips/</guid>
+            <link>https://www.peterjxl.com/JavaEE/log-tips/</link>
+            <guid>https://www.peterjxl.com/JavaEE/log-tips/</guid>
             <pubDate>Sat, 03 Dec 2022 17:38:33 GMT</pubDate>
             <description><![CDATA[这里说一下笔者日常中用到的日志管理小技巧。日志经常是需要压缩和定期清理的，此时可以通过 shell 脚本配合 crontab 实现]]></description>
         </item>
         <item>
             <title><![CDATA[log4j2 笔记]]></title>
-            <link>https://www.peterjxl.com/JAVAEE/Log4j2/</link>
-            <guid>https://www.peterjxl.com/JAVAEE/Log4j2/</guid>
+            <link>https://www.peterjxl.com/JavaEE/Log4j2/</link>
+            <guid>https://www.peterjxl.com/JavaEE/Log4j2/</guid>
             <pubDate>Sat, 03 Dec 2022 18:08:48 GMT</pubDate>
             <description><![CDATA[Log4j ：log for java (java 的日志) 是 java 主流的日志框架，提供各种类型，各种存储，各种格式，多样化的日志服务]]></description>
         </item>
@@ -3970,8 +3970,8 @@
         </item>
         <item>
             <title><![CDATA[日志系统小结]]></title>
-            <link>https://www.peterjxl.com/JAVAEE/log-summary/</link>
-            <guid>https://www.peterjxl.com/JAVAEE/log-summary/</guid>
+            <link>https://www.peterjxl.com/JavaEE/log-summary/</link>
+            <guid>https://www.peterjxl.com/JavaEE/log-summary/</guid>
             <pubDate>Sat, 03 Dec 2022 17:38:40 GMT</pubDate>
             <description><![CDATA[日志系统小结]]></description>
         </item>
