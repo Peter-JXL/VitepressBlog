@@ -4,7 +4,6 @@ import { SocialLinks } from "./config/SocialLinks"; //导入社交链接配置
 import { Imgs } from "./config/BackgroundImg";
 import { vitepressPluginLegend } from 'vitepress-plugin-legend';
 
-
 export const teekConfig = defineTeekConfig({
 
   teekTheme: true,          // 启用 teek 主题
@@ -12,6 +11,13 @@ export const teekConfig = defineTeekConfig({
   pageStyle: "segment-nav",          // 文章页的样式风格 default, card, segment, card-nav, segment-nav
   homeCardListPosition: "left", // 首页卡片栏列表位置
 
+  
+  articleAnalyze: {
+    imageViewer: {
+      enabled: false, // 禁用图片查看器
+    },
+  },
+  
   // 首页 Banner 配置
   banner: {
     enabled: true, // 是否启用 Banner
