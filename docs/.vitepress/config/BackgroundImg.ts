@@ -1,6 +1,7 @@
 // 博客背景图地址列表，也是默认封面图地址列表，导出给 teekConfig.ts 使用
 
 export const Imgs: Array<string> = [
+  'https://image.peterjxl.com/blog/143933879_p0.jpg', // 银狼
   'https://image.peterjxl.com/blog/X@vvsimyeol-1874745010434068680.jpg',  // 珂莱塔
   'https://image.peterjxl.com/blog/X@ddengart-2019818370867294543.jpg',   // 爱弥斯
   'https://image.peterjxl.com/blog/142653295_p0.jpg', // 绝区零 妄想天使
