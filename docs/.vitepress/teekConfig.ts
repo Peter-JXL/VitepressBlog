@@ -194,7 +194,7 @@ export const teekConfig = defineTeekConfig({
       {
         name: "张洪 Heo",
         desc: "分享设计与科技生活",
-        avatar: "https://bu.dusays.com/2022/12/28/63ac2812183aa.png",
+        avatar: "https://img.zhheo.com/i/67d8fa75943e4.webp",
         link: "https://blog.zhheo.com",
       },
       {
