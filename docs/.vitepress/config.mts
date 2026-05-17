@@ -233,8 +233,8 @@ export default defineConfig({
           },
           {
             text: '漫画', items: [
-              { text: '漫画软件', link: '/Comic-Software/' },
-              { text: '漫画推荐', link: '/Comic-Recommend/' },
+              { text: '漫画软件', link: '/comic-software/' },
+              { text: '漫画推荐', link: '/comic-recommend/' },
             ]
           },
           {
