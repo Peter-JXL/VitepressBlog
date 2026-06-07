@@ -138,6 +138,7 @@ export default defineConfig({
         text: '🛠️软件',
         items: [
           { text: 'Windows 使用技巧', link: '/Windows/' },
+          { text: 'Apple', link: '/apple/' },
           { text: '最全面的浏览器教程', link: '/Browser/' },
           { text: '最全面的输入法教程', link: '/TypeWriting/' },
           { text: '最全面的 RSS 教程', link: '/RSS/' },
