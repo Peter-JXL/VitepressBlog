@@ -9725,6 +9725,17 @@
             </enclosure>
         </item>
         <item>
+            <title><![CDATA[新闻合订本 2026-06]]></title>
+            <link>https://www.peterjxl.com/News/2026-06</link>
+            <guid>https://www.peterjxl.com/News/2026-06</guid>
+            <pubDate>Tue, 30 Jun 2026 10:24:23 GMT</pubDate>
+            <description><![CDATA[2026.06 新闻合集]]></description>
+            <enclosure url="https://image.peterjxl.com/blog/image-20260626145633-yynrpnc.png">
+            </enclosure>
+        </item>
+
+        
+        <item>
             <title><![CDATA[《虹猫蓝兔七侠传》小游戏全攻略（原灵动喷射）]]></title>
             <link>https://www.peterjxl.com/stg/hongmao/</link>
             <guid>https://www.peterjxl.com/stg/hongmao/</guid>
@@ -9733,5 +9744,27 @@
             <enclosure url="https://image.peterjxl.com/blog/image-20260718110920-n3ylkqb.png">
             </enclosure>
         </item>
+
+        <item>
+            <title><![CDATA[2026 年 7 月记]]></title>
+            <link>https://www.peterjxl.com/2026/7</link>
+            <guid>https://www.peterjxl.com/2026/7</guid>
+            <pubDate>Fri, 31 Jul 2026 10:24:23 GMT</pubDate>
+            <description><![CDATA[2026 年 7 月记]]></description>
+            <enclosure url="https://image.peterjxl.com/blog/image-20260729193735-eq102yt.png">
+            </enclosure>
+        </item>
+
+         <item>
+            <title><![CDATA[新闻合订本 2026-07]]></title>
+            <link>https://www.peterjxl.com/News/2026-07</link>
+            <guid>https://www.peterjxl.com/News/2026-07</guid>
+            <pubDate>Fri, 31 Jul 2026 10:24:23 GMT</pubDate>
+            <description><![CDATA[2026.07 新闻合集]]></description>
+            <enclosure url="https://image.peterjxl.com/blog/image-20260717113040-fsw5m5p.png">
+            </enclosure>
+        </item>
+
+
     </channel>
 </rss>
