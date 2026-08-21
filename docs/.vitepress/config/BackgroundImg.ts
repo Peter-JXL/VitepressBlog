@@ -3,6 +3,7 @@
 export const Imgs: Array<string> = [
   'https://image.peterjxl.com/blog/148364880_p0.jpg', // 原神 奥黛塔
   'https://image.peterjxl.com/blog/147212317.jpg', // 胡桃
+  'https://image.peterjxl.com/blog/148651669_p0.jpg', // 鸣潮 清潇
   'https://image.peterjxl.com/blog/146200825_p0.jpg', // 鸣潮 闺蜜组
   'https://image.peterjxl.com/blog/X@nmgmkn_20260619.jpg',  // 绝区零 柏妮思
   'https://image.peterjxl.com/blog/145973695_p0.jpg', // 明日方舟 洛茜
