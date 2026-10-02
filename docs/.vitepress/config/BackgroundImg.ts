@@ -1,6 +1,7 @@
 // 博客背景图地址列表，也是默认封面图地址列表，导出给 teekConfig.ts 使用
 
 export const Imgs: Array<string> = [
+  'https://image.peterjxl.com/blog/2026-09-25.jpg', // 鸣潮 心
   'https://image.peterjxl.com/blog/149566717_p0.jpg', // 鸣潮 秧秧穗穗
   'https://image.peterjxl.com/blog/148364880_p0.jpg', // 原神 奥黛塔
   'https://image.peterjxl.com/blog/147212317.jpg', // 胡桃
