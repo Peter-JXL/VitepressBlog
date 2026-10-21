@@ -2,9 +2,8 @@
 import { defineConfig } from 'vitepress'
 import { teekConfig } from "./teekConfig"
 import { HeadData } from "./config/Head"
-import type { HeadConfig } from "vitepress"; // 在文件顶部添加类型导入
-import { chineseSearchOptimize, pagefindPlugin } from 'vitepress-plugin-pagefind'
-import { createRewrites } from "vitepress-theme-teek/config";
+import type { HeadConfig } from "vitepress" // 在文件顶部添加类型导入
+import { createRewrites } from "vitepress-theme-teek/config"
 
 export default defineConfig({
 
@@ -37,19 +36,6 @@ export default defineConfig({
       infoLabel: "信息",
       detailsLabel: "详细信息"
     }
-  },
-
-  vite: {
-    plugins: [
-      // 本地搜索
-      pagefindPlugin({
-        btnPlaceholder: '搜索',
-        placeholder: '搜索文档',
-        emptyText: '空空如也',
-        heading: '共: {{searchResult}} 条结果',
-        customSearchQuery: chineseSearchOptimize
-      })
-    ]
   },
 
   themeConfig: {
@@ -291,13 +277,13 @@ export default defineConfig({
       next: "下一页",
     },
 
-    // search: {
-    //   provider: "algolia",
-    //   options: {
-    //     appId: '...', // 你的 Application ID
-    //     apiKey: '...', // 你的Search API Key
-    //     indexName: 'chunge16vitepress' // 你的indexName
-    //   }
-    // },
+    search: {
+      provider: "algolia",
+      options: {
+        appId: 'ec48396236f9cd5ee953d86bba11730a', // Application ID
+        apiKey: 'ec48396236f9cd5ee953d86bba11730a', // Search API Key
+        indexName: 'peterjxl_blog_pages'
+      }
+    },
   }
 })

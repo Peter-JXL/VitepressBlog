@@ -6,7 +6,7 @@ export const Imgs: Array<string> = [
   'https://image.peterjxl.com/blog/150673271_p0.jpg',   // 绝区零 克拉蕾和洛克茜
   'https://image.peterjxl.com/blog/Roxy.jpg',           // 绝区零 洛克茜
   'https://image.peterjxl.com/blog/150856621_p0.jpg',   // 崩坏3 爱莉希雅，琪亚娜 芽衣
-  'https://image.peterjxl.com/blog/150858848_p0.jpg',   // 芙芙
+  'https://image.peterjxl.com/blog/150858848_p0.jpg',   // 原神 芙芙
 
   'https://image.peterjxl.com/blog/150090437_p0.jpg',   // 辉夜姬
   'https://image.peterjxl.com/blog/150081738_p0.jpg',   // 辉夜姬
@@ -26,7 +26,7 @@ export const Imgs: Array<string> = [
   'https://image.peterjxl.com/blog/131754182_p0.jpg', // 丝柯克
   'https://image.peterjxl.com/blog/2026-02-04.jpg',   // 兹白
   'https://image.peterjxl.com/blog/148364880_p0.jpg', // 原神 奥黛塔
-  'https://image.peterjxl.com/blog/140161372_p0.jpg', // 原神群星 哥伦比娅
+  'https://image.peterjxl.com/blog/140161372_p0.jpg', // 原神 群星 哥伦比娅
   'https://image.peterjxl.com/blog/141274290_p0.jpg', // 哥伦比娅 & 桑多涅
   'https://image.peterjxl.com/blog/141050669_p0.jpg', // 哥伦比娅
   'https://image.peterjxl.com/blog/140002549_p1.jpg', // 哥伦比娅
