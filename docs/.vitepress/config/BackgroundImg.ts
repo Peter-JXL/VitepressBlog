@@ -1,6 +1,10 @@
 // 博客背景图地址列表，也是默认封面图地址列表，导出给 teekConfig.ts 使用
 
 export const Imgs: Array<string> = [
+  'https://image.peterjxl.com/blog/151026640_p0.jpg',   // 赛博朋克
+  'https://image.peterjxl.com/blog/Cyberpunk-post.jpg', // 赛博朋克
+  
+  'https://image.peterjxl.com/blog/151000568_p0.jpg',   // 鸣潮 心
   'https://image.peterjxl.com/blog/149844749_p0.jpg',   // 鸣潮 心
   'https://image.peterjxl.com/blog/150653889_p0.jpg',   // 鸣潮 娅娅
   'https://image.peterjxl.com/blog/150673271_p0.jpg',   // 绝区零 克拉蕾和洛克茜
