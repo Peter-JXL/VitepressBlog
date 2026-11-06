@@ -1,17 +1,17 @@
 // 博客背景图地址列表，也是默认封面图地址列表，导出给 teekConfig.ts 使用
 
 export const Imgs: Array<string> = [
-  'https://image.peterjxl.com/blog/151026640_p0.jpg',   // 赛博朋克
+
+  'https://image.peterjxl.com/blog/151500341_p0.jpg',   // 明日方舟 祀
+  'https://image.peterjxl.com/blog/151456441_p0.jpg',   // 绝区零 蕾米埃尔
+  'https://image.peterjxl.com/blog/141891524_p0.jpg',   // 花火
+  'https://image.peterjxl.com/blog/148378733_p0.jpg',   // 鸣潮 穗穗
+  'https://image.peterjxl.com/blog/149922273_p0.jpg',   // 鸣潮 清潇
   'https://image.peterjxl.com/blog/Cyberpunk-post.jpg', // 赛博朋克
-  
-  'https://image.peterjxl.com/blog/151000568_p0.jpg',   // 鸣潮 心
-  'https://image.peterjxl.com/blog/149844749_p0.jpg',   // 鸣潮 心
-  'https://image.peterjxl.com/blog/150653889_p0.jpg',   // 鸣潮 娅娅
   'https://image.peterjxl.com/blog/150673271_p0.jpg',   // 绝区零 克拉蕾和洛克茜
   'https://image.peterjxl.com/blog/Roxy.jpg',           // 绝区零 洛克茜
   'https://image.peterjxl.com/blog/150856621_p0.jpg',   // 崩坏3 爱莉希雅，琪亚娜 芽衣
   'https://image.peterjxl.com/blog/150858848_p0.jpg',   // 原神 芙芙
-
   'https://image.peterjxl.com/blog/150090437_p0.jpg',   // 辉夜姬
   'https://image.peterjxl.com/blog/150081738_p0.jpg',   // 辉夜姬
 
@@ -81,6 +81,8 @@ export const Imgs: Array<string> = [
   'https://image.peterjxl.com/blog/2026-3-12-7.jpg',  // 绝区零 妄想天使
   'https://image.peterjxl.com/blog/2026-02-23.jpg',   // 绝区零 妄想天使
   'https://image.peterjxl.com/blog/140830123_p0.jpg', // 绝区零 妄想天使
+  'https://image.peterjxl.com/blog/151358818_p0.jpg',   // 绝区零 菲欧妮
+
 
 
 
@@ -120,6 +122,9 @@ export const Imgs: Array<string> = [
   'https://image.peterjxl.com/blog/142210069_p0.jpg', // 鸣潮 爱弥斯
   'https://image.peterjxl.com/blog/140831812_p0.jpg', // 鸣潮 爱弥斯
   'https://image.peterjxl.com/blog/X@ddengart-2019818370867294543.jpg',   // 鸣潮 爱弥斯
+  'https://image.peterjxl.com/blog/151000568_p0.jpg',   // 鸣潮 心
+  'https://image.peterjxl.com/blog/149844749_p0.jpg',   // 鸣潮 心
+  'https://image.peterjxl.com/blog/150653889_p0.jpg',   // 鸣潮 娅娅
 
 
   // 星穹铁道    

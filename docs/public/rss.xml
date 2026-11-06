@@ -9805,16 +9805,24 @@
             </enclosure>
         </item>
 
-
-         <item>
-            <title><![CDATA[更新说明]]></title>
-            <link>https://www.peterjxl.com/About/update</link>
-            <guid>https://www.peterjxl.com/About/update</guid>
-            <pubDate>Thu, 22 Oct 2026 01:00:00 GMT</pubDate>
-            <description><![CDATA[更新说明]]></description>
-            <enclosure url="https://image.peterjxl.com/blog/image-20260924153846-t02n5ad.png">
+        <item>
+            <title><![CDATA[2026 年 10 月记]]></title>
+            <link>https://www.peterjxl.com/2026/10</link>
+            <guid>https://www.peterjxl.com/2026/10</guid>
+            <pubDate>Sat, 31 Oct 2026 10:24:23 GMT</pubDate>
+            <description><![CDATA[2026 年 10 月记]]></description>
+            <enclosure url="https://image.peterjxl.com/blog/2026-10-02_16-29-21.png">
             </enclosure>
         </item>
 
+         <item>
+            <title><![CDATA[新闻合订本 2026-10]]></title>
+            <link>https://www.peterjxl.com/News/2026-10</link>
+            <guid>https://www.peterjxl.com/News/2026-10</guid>
+            <pubDate>Sat, 31 Oct 2026 22:24:23 GMT</pubDate>
+            <description><![CDATA[2026.10 新闻合集]]></description>
+            <enclosure url="https://image.peterjxl.com/blog/image-20261015112348-tk65fwq.png">
+            </enclosure>
+        </item>
     </channel>
 </rss>
